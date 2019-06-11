@@ -4,3 +4,4 @@ theme: flatly
 pages: 
   - Home: 'index.md'
   - Excel: 'excel.md'
+  - Economia: 'economics.md'
