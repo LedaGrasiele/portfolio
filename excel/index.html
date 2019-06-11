@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Excel - Leda</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Leda</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Excel</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#excel-avancado-versao-2010">Excel avançado (versão 2010):</a></li>
+            <li><a href="#1-funcao-indice">1- Função Índice</a></li>
+            <li><a href="#a-matricial">a) Matricial</a></li>
+            <li><a href="#b-referencial">b) Referencial</a></li>
+            <li><a href="#2-funcao-corresp">2- Função Corresp</a></li>
+            <li><a href="#3-combinando-as-funcoes-indice-e-corresp">3- Combinando as funções Índice e Corresp</a></li>
+            <li><a href="#4-plano-de-fundo">4- Plano de fundo</a></li>
+            <li><a href="#5-funcao-somases">5- Função Somases</a></li>
+            <li><a href="#6-funcao-contses">6- Função Cont.ses</a></li>
+            <li><a href="#7-erros-do-excel">7- Erros do Excel</a></li>
+            <li><a href="#8-graficos">8- Gráficos</a></li>
+            <li><a href="#9-tabela-dinamica">9- Tabela Dinâmica</a></li>
+            <li><a href="#10-grafico-dinamico">10- Gráfico Dinâmico</a></li>
+            <li><a href="#11-dashboard">11- Dashboard</a></li>
+            <li><a href="#12-guia-desenvolvedor">12- Guia Desenvolvedor</a></li>
+            <li><a href="#13-macros">13- Macros</a></li>
+            <li><a href="#a-botoes-para-macros">a) Botões para Macros</a></li>
+            <li><a href="#b-habilitar-macros">b) Habilitar Macros</a></li>
+            <li><a href="#c-salvar-pasta-de-trabalho">c) Salvar pasta de trabalho</a></li>
+            <li><a href="#d-criando-uma-macro-no-vbe">d) Criando uma Macro no VBE</a></li>
+        <li class="main "><a href="#atalhos">Atalhos:</a></li>
+            <li><a href="#1-selecionar-linhas-e-colunas">1- Selecionar linhas e colunas:</a></li>
+            <li><a href="#2-inserir-linhas">2- Inserir linhas:</a></li>
+            <li><a href="#3-apagar-linhas">3- Apagar linhas:</a></li>
+            <li><a href="#4-andando-pelas-celulas-da-planilha">4- Andando pelas células da planilha:</a></li>
+            <li><a href="#5-selecionando-linhas-e-colunas">5- Selecionando linhas e colunas:</a></li>
+            <li><a href="#6-aumentando-a-altura-das-linhas">6- Aumentando a altura das linhas:</a></li>
+            <li><a href="#7-preenchendo-as-celulas-automaticamente">7- Preenchendo as células automaticamente:</a></li>
+            <li><a href="#8-planilha-zebrada">8- Planilha zebrada:</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="excel-avancado-versao-2010">Excel avançado (versão 2010):</h1>
+<h2 id="1-funcao-indice">1- Função Índice</h2>
+<h2 id="a-matricial">a) Matricial</h2>
+<h2 id="b-referencial">b) Referencial</h2>
+<h2 id="2-funcao-corresp">2- Função Corresp</h2>
+<h2 id="3-combinando-as-funcoes-indice-e-corresp">3- Combinando as funções Índice e Corresp</h2>
+<h2 id="4-plano-de-fundo">4- Plano de fundo</h2>
+<h2 id="5-funcao-somases">5- Função Somases</h2>
+<h2 id="6-funcao-contses">6- Função Cont.ses</h2>
+<h2 id="7-erros-do-excel">7- Erros do Excel</h2>
+<h2 id="8-graficos">8- Gráficos</h2>
+<h2 id="9-tabela-dinamica">9- Tabela Dinâmica</h2>
+<h2 id="10-grafico-dinamico">10- Gráfico Dinâmico</h2>
+<h2 id="11-dashboard">11- Dashboard</h2>
+<h2 id="12-guia-desenvolvedor">12- Guia Desenvolvedor</h2>
+<h2 id="13-macros">13- Macros</h2>
+<h2 id="a-botoes-para-macros">a) Botões para Macros</h2>
+<h2 id="b-habilitar-macros">b) Habilitar Macros</h2>
+<h2 id="c-salvar-pasta-de-trabalho">c) Salvar pasta de trabalho</h2>
+<h2 id="d-criando-uma-macro-no-vbe">d) Criando uma Macro no VBE</h2>
+<h1 id="atalhos"><strong>Atalhos:</strong></h1>
+<h2 id="1-selecionar-linhas-e-colunas">1- Selecionar linhas e colunas:</h2>
+<p>Primeira opção: clicar no número da linha ou no nome da coluna.
+Segunda opção: parar na coluna de interesse e usar ctrl e espaço (seleciona a coluna inteira); ou parar na linda de interesse e pressionar <code>shift</code> + <code>espaço</code> (seleciona a linha inteira).</p>
+<h2 id="2-inserir-linhas">2- Inserir linhas:</h2>
+<p>Primeira opção: clicar no número da linha e clicar em Inserir ou clicar no número da linha e digitar <code>i</code>.</p>
+<p>Segunda opção: selecionar a linha abaixo da qual você pretende inserir uma nova linha (lembre-se da primeira dica: selecione a linha utilizando o atalho <code>shift</code> + <code>espaço</code>). Depois que a linha estiver selecionada, pressione <code>ctrl</code> + <code>+</code> (caso não tenha o + separado no seu teclado, pressione <code>ctrl</code> + <code>shift</code> + <code>+</code>).</p>
+<p>Dica adicional: caso você queira incluir mais de uma linha, basta selecionar o número de linhas que você quer incluir segurando a tecla shift e indo com a seta para baixo ou para cima e depois usar o atalho para inserir as linhas (<code>ctrl</code> + <code>+</code>). O mesmo vale para as colunas.</p>
+<h2 id="3-apagar-linhas">3- Apagar linhas:</h2>
+<p>Para apagar a linha, o atalho segue a mesma ideia da dica anterior: selecione a linha e pressione <code>ctrl</code> + <code>-</code>.</p>
+<h2 id="4-andando-pelas-celulas-da-planilha">4- Andando pelas células da planilha:</h2>
+<p>Se você tem uma planilha com muitos dados e quer andar entre as células, há alguns atalhos úteis para isso:</p>
+<p>Para ir para a última linha: <code>ctrl</code> + <code>seta para baixo</code>;
+Para ir para a primeiro linha: <code>ctrl</code> + <code>seta para cima</code>;
+Para ir para a primeira coluna: <code>ctrl</code> + <code>seta para a esquerda</code>;
+Para ir para a última coluna: <code>ctrl</code> + <code>seta para a direita</code>.
+Para ir para a primeira célula da planilha (A1): <code>ctrl</code> + <code>home</code>.</p>
+<h2 id="5-selecionando-linhas-e-colunas">5- Selecionando linhas e colunas:</h2>
+<p>Usando os mesmos atalhos da dica 4 juntamente com a tecla <code>shift</code>, é possível selecionar várias linhas e várias colunas.</p>
+<p>Ex.: para selecionar uma linha inteira (a partir da célula em que você está), pressione <code>ctrl</code> + <code>shift</code> + <code>seta para cima</code> ou <code>seta para baixo</code>. O mesmo vale para selecionar várias colunas. Use os mesmos atalhos combinados com as setas para os lados.</p>
+<p>Se a intenção é selecionar toda a sua planilha, pressione <code>ctrl</code> + <code>*</code>. No caso de laptops, o <code>*</code> costuma ficar acima do número 8. Então o atalho é: <code>ctrl</code> + <code>shift</code> + <code>8</code>.</p>
+<h2 id="6-aumentando-a-altura-das-linhas">6- Aumentando a altura das linhas:</h2>
+<p>Selecione todas as linhas. Lembra do nosso atalho para isso? Nesse caso, basta selecionar a primeira linha com o atalho <code>shift</code> + <code>espaço</code> e depois selecionar até a última linha com o atalho <code>ctrl</code> + <code>shift</code> + <code>seta para baixo</code>.</p>
+<p>Caso ache mais fácil, selecione tudo com o mouse ou marque a primeira linha e pressione <code>shift</code> + <code>seta para baixo</code> até chegar na linha desejada.
+Depois, vá com o cursor até a linha entre os números das linhas. O cursor vai virar uma pequena cruz. Selecione e puxe para baixo deixando a linha do tamanho desejado. Com isso, todas as linhas ficarão com a mesma altura.</p>
+<h2 id="7-preenchendo-as-celulas-automaticamente">7- Preenchendo as células automaticamente:</h2>
+<p>Se você precisa enumerar algumas células do número 1 ao 100, por exemplo, você já sabe que pode inserir o número 1 em uma célula, o número 2 na célula seguinte, selecionar as duas, clicar com o mouse no canto inferior direito da célula de baixo e puxar para baixo, certo? Com isso, as próximas células serão preenchidas automaticamente até o número que você deseja.</p>
+<p>Porém, se você colocar o indicador ordinal, assim: 1º, 2º, 3º etc. esse atalho não funciona mais, pois o tipo da célula muda.
+Qual a solução então? Terei que digitar tudo até o 100 ou até o 500, 700, dependendo do caso? Não. Tem uma forma muito mais simples. Vamos lá!</p>
+<p>Primeiro faça normalmente o primeiro passo (digitar os dois primeiros números, selecionar e puxar até o número desejado). Com isso, todos os números estarão selecionados. Se não estiverem, selecione-os. Então pressione <code>ctrl</code> + <code>1</code> e a aba de formatação de células será aberta (outro atalho bacana, olha só!). Clique em <code>personalizado</code>, depois escolha o número <code>0</code> (ele provavelmente estará como <code>geral</code>). Agora edite o <code>tipo</code> adicionando <code>"º"</code> (o símbolo de grau entre aspas) na frente do número e clique em <code>ok</code>. Pronto! Parece complicado, mas é muito simples. É só seguir esses passos e a sua lista de números ordinais está pronta!</p>
+<p>Ah, e caso você queria adicionar mais números, agora é só selecionar e puxar para baixo que vai funcionar normalmente.</p>
+<h2 id="8-planilha-zebrada">8- Planilha zebrada:</h2>
+<p>Primeiro selecione a planilha (<code>ctrl</code> + <code>*</code>), clique em <code>formatação condicional</code> e clique em <code>nova regra</code>. Clique na última opção da lista (<code>Usar uma fórmula para determinar quais células devem ser formatadas</code>). </p>
+<p>Agora clique na caixa de texto logo abaixo e digite: <code>=MOD(LIN();2)=0</code>.</p>
+<p>O próximo passo é clicar em <code>formatar</code> ainda nesta janela. Com isso, uma nova janela será aberta. Clique em <code>preenchimento</code> e escolha a cor desejada. Prontinho! Sua planilha agora tem uma linha de cada cor. Inclusive, você pode adicionar mais linhas que o padrão será mantido.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
