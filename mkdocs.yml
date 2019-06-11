@@ -1,0 +1,6 @@
+site_name: Leda
+theme: flatly
+
+pages: 
+  - Home: 'index.md'
+  - Excel: 'excel.md'
