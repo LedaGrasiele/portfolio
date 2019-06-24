@@ -5,3 +5,5 @@ pages:
   - Home: 'index.md'
   - Excel: 'excel.md'
   - Economia: 'economics.md'
+  - Financial Market: 'financial market.md'
+  - CPA-20: 'cpa-20'
