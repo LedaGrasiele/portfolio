@@ -4,3 +4,4 @@ Irei disponibilizar aqui conteúdos que caem na prova e dicas de estudo.
 
 Em primeiro lugar, é importante saber que há muito material gratuito disponível online. O grande Fábio Louzada disponibiliza diversas lives e questões sobre o assunto. O site e o aplicativo da TopInvest também têm muito conteúdo bacana. Além disso, você pode ir no youtube e pesquisar por "cpa-20 edgar abreu" que você vai encontrar diversas vídeo-aulas sobre cada um dos módulos cobrados na prova.
 
+[em construção]

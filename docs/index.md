@@ -2,12 +2,17 @@
 
 Me chamo Leda e sou economista e mestra em gestão pública pela Universidade Federal de Alfenas.
 
-Deixarei disponíveis aqui algumas documentações e dicas de materiais de estudo, desde excel avançado a algumas dicas da linguagem Python e conteúdos sobre investimentos e inglês. Serão disponibizados ainda o meu TCC e a minha dissertação de mestrado - em inglês e português (é, o conteúdo aqui vai ser bem variado rs).
+Deixarei disponíveis aqui algumas documentações e dicas de materiais de estudo, desde excel avançado a algumas dicas da linguagem Python e conteúdos sobre investimentos e inglês. Serão disponibizados ainda o meu currículo Lattes e a minha dissertação de mestrado (é, o conteúdo aqui vai ser bem variado rs).
 
 Contato:
 <button onclick="window.open('https://github.com/LedaGrasiele');">GITHUB</button>
 <button onclick="window.open('https://www.linkedin.com/in/leda-grasiele-oliveira/');">LINKEDIN</button>
 <button onclick="window.open('https://twitter.com/LedaGrasiele');">TWITTER</button>
+<button onclick="window.open('https://stackoverflow.com/users/8821525/leda-grasiele');">STACK OVERFLOW</button>
+
+Outros documentos e materiais: </br>
+<a href="https://drive.google.com/open?id=1Kql_KAfEerWjGXX89nBWbgDGTVAI5YHd" target="_blank">Dissertação de mestrado</a> </br>
+<a href="http://lattes.cnpq.br/4290292249030057" target="_blank">Currículo lattes</a> </br>
 
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).

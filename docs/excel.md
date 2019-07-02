@@ -152,13 +152,41 @@ Observação: Se você pretende fazer a contagem usando um único critério, use
 
 #### **9. Tabela Dinâmica**
 
+Uma Tabela Dinâmica é uma ferramenta poderosa para calcular, resumir e analisar os dados que lhe permitem ver comparações, padrões e tendências nos dados.
+
+O primeiro passo para criar uma Tabela Dinâmica é selecionar os dados a partir dos quais você quer criar a tabela. Os dados selecionados não podem ter colunas ou linhas vazias e deve haver uma linha única para os títulos. </br>
+Depois de selecionados os dados, clique em ``inserir`` > ``tabela dinâmica``. </br>
+Em ``Tabela/Intervalo``, verifique o intervalo de células. </br>
+Em ``Escolha onde deseja que o relatório da Tabela Dinâmica seja posicionado``, selecione Nova Planilha para posicionar a Tabela Dinâmica em uma nova planilha, ou escolha Planilha Existente e selecione o local em que deseja exibir a Tabela Dinâmica. </br>
+Selecione ``ok``. </br>
+Depois disso, no lado direito de sua tela, selecione os dados que você quer inserir na tabela e observe como ela foi criada automaticamente. Se necessário, mude os itens nos campos disponíveis no canto inferior direito de forma que a tabela faça mais sentido/seja mais fácil de interpretar.
+
+A seguir está um exemplo (à esquerda estão os dados sem nenhuma formatação ou edição e à direita está a tabela dinâmica):
+
+![exemplo_tab_dinam](img/excel/tabela_dinamica.jpg)
+
 </br>
 
 #### **10. Gráfico Dinâmico**
+Os Gráficos Dinâmicos são uma ótima maneira de adicionar visualizações aos dados, já que os dados em formato de gráfico geralmente são muito mais intuitivos do que os mesmos em tabelas. </br>
+Para adicionar um gráfico dinâmico, os passos são basicamente os mesmos da tabela dinâmica. </br>
+Primeiro selecione os dados, depois clique em ``inserir`` > ``gráfico dinâmico``.
+
+Em ``Tabela/Intervalo``, verifique o intervalo de células. </br>
+Em ``Escolha o local no qual deseja que a tabela e o gráfico dinâmicos sejam colocados``, selecione Nova Planilha para posicioná-los em uma nova planilha, ou escolha Planilha Existente e selecione o local em que deseja exibi-los. </br>
+Selecione ``ok``. </br>
+
+Depois disso, no lado direito de sua tela, selecione os dados que você quer inserir no gráfico e mude os itens nos campos disponíveis no canto inferior direito de forma que seu gráfico faça mais sentido/seja mais fácil de interpretar.
+
+A seguir está um exemplo de gráfico dinâmico juntamente com a tabela que deu origem ao mesmo.
+
+![exemplo_graf_dinam](img/excel/grafico_dinamico.jpg)
 
 </br>
 
 #### **11. Dashboard**
+Um dashboard é uma representação visual de métricas de chave que lhe permitem rapidamente ver e analisar os seus dados num único local. Dashboards apenas não fornecem vistas de dados consolidados, mas os utilizadores irão conseguir filtrar os dados para apresentar apenas o que é importante.
+
 
 </br>
 

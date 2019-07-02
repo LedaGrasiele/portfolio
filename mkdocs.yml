@@ -6,4 +6,5 @@ pages:
   - Excel: 'excel.md'
   - Economia: 'economics.md'
   - Financial Market: 'financial market.md'
-  - CPA-20: 'cpa-20'
+  - CPA-20: 'cpa-20.md'
+  - Python: 'python.md'
