@@ -5,6 +5,7 @@ pages:
   - Home: 'index.md'
   - Excel: 'excel.md'
   - Economia: 'economics.md'
-  - Financial Market: 'financial market.md'
+  - Mercado financeiro: 'mercado-financeiro.md'
   - CPA-20: 'cpa-20.md'
   - Python: 'python.md'
+  - Análise de dados: 'analise.md'
