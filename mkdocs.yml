@@ -4,8 +4,6 @@ theme: flatly
 pages: 
   - Home: 'index.md'
   - Excel: 'excel.md'
-  - Economia: 'economics.md'
-  - Mercado financeiro: 'mercado-financeiro.md'
-  - CPA-20: 'cpa-20.md'
+  - Mercado financeiro / CPA-20: 'mercado-financeiro.md'
   - Python: 'python.md'
   - Análise de dados: 'analise.md'

@@ -187,6 +187,8 @@ A seguir está um exemplo de gráfico dinâmico juntamente com a tabela que deu 
 #### **11. Dashboard**
 Um dashboard é uma representação visual de métricas de chave que lhe permitem rapidamente ver e analisar os seus dados num único local. Dashboards apenas não fornecem vistas de dados consolidados, mas os utilizadores irão conseguir filtrar os dados para apresentar apenas o que é importante.
 
+Neste tópico, vamos abordar como utilizar ferramentas de várias tabelas dinâmicas, gráficos dinâmicos e tabela dinâmica para criar um dashboard dinâmico.
+
 
 </br>
 
