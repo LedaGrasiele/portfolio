@@ -3,7 +3,7 @@
 Me chamo Leda e sou economista e mestra em gestão pública pela Universidade Federal de Alfenas.
 </br>
 </br>
-Deixarei disponíveis aqui algumas documentações e dicas de materiais de estudo, desde excel avançado a algumas dicas da linguagem Python e conteúdos sobre investimentos e mercado financeiro. Além disso, terá uma sessão dedicada à análise de dados, com o conteúdo utilizado na minha dissertação de mestrado com foco na análise estatística.
+Deixarei disponíveis aqui algumas documentações e dicas de materiais de estudo, desde excel avançado a algumas dicas da linguagem Python e conteúdos sobre investimentos e mercado financeiro. Além disso, terá uma sessão dedicada à análise de dados, onde será disponibilizado as análises e os modelos estatísticos realizadas na minha dissertação de mestrado.
 </br>
 </br>
 Contato:

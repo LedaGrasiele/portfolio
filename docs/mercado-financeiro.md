@@ -1,4 +1,4 @@
-Nesta seção serão disponibilizados os principais conceitos do mercado finaneiro, especialmente aqueles cobrados na prova da certificação CPA-20. Tomar como base os módulos da prova é uma boa forma de organizar o conteúdo que será disponibilizado aqui.
+Nesta seção serão disponibilizados os principais conceitos do mercado finaneiro, especialmente aqueles necessários para a certificação CPA-20. Para organizar o conteúdo, serão tomados como base os módulos da prova.
 </br>
 </br>
 A sigla CPA significa Certificação Profissional Anbima e ela é uma certificação básica para quem quer entrar no mercado financeiro e trabalhar com a distribuição de produtos de investimentos. Como foi dito, os conteúdos aqui estarão disponíveis na ordem dos módulos cobrados na prova e podem ser um bom resumo para os estudos (foi o resumo que eu fiz e utilizeu para estudar para a prova).
@@ -8,7 +8,7 @@ Caso você tenha interesse em trabalhar nesta área, saiba que há muito materia
 </br>
 </br>
 Caso tenha interesse em fazer a prova, mais informações podem ser encontradas no site oficial da <a href="http://www.anbima.com.br/pt_br/index.htm" target="_blank">Anbima.</a> 
-</br> 
+
 </br>
 
 #### **Módulo 1 - Sistema Financeiro Nacional**
@@ -79,23 +79,23 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 
 **Tipos de bancos** </br>
 
-1. **Comercial**:
+1. **comercial**:
 
 	* depósito à vista, depósito a prazo com rendimento (CDB).
 	* possibilidade de empréstimos e rendimentos.
 	* instituições financeiras privadas ou públicas S/A.
 
-2. **Investimento**: 
+2. **investimento**: 
 
 	* foco em investimentos de médio e longo prazo.
 	* é permitida a abertura de conta corrente, mas não pode emitir cheque.
 
-3. **Múltiplos**:
+3. **múltiplos**:
 
 	* opera com múltiplas carteiras.
 	* uma delas deve ser comercial ou de investimentos.
 
-4. **Outras modalidades**:
+4. **outras modalidades**:
 
 	I. sociedade de crédito imobiliário. </br>
 	II. sociedade de credito financiamento e investimento. </br>
@@ -156,13 +156,14 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 </br>
 
 #### **Módulo 2 – Compliance, Ética e Análise do perfil do investidor**
+</br>
 
 **Prevenção contra a lavagem de dinheiro**
 
 * 3 etapas (COIn):
-	1. **Colocação**: inserção do dinheiro na economia (depósitos, compras de bens, financiamento dos valores etc.).
-	2. **Ocultação**: dificultar o rastreamento dos recursos (movimentar o dinheiro anonimamente, transferir para contas anônimas etc.).
-	3. **Integração**: os recursos são incorporados  ao sistema financeiro (investir em empreendimentos).
+	1. **colocação**: inserção do dinheiro na economia (depósitos, compras de bens, financiamento dos valores etc.).
+	2. **ocultação**: dificultar o rastreamento dos recursos (movimentar o dinheiro anonimamente, transferir para contas anônimas etc.).
+	3. **integração**: os recursos são incorporados  ao sistema financeiro (investir em empreendimentos).
 </br>
 </br>
 
@@ -209,11 +210,11 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 
 **Outros conceitos**
 
-* **Risco legal**: relacionado à não execução de um contrato.
-* **Risco de imagem**: relacionado à reputação da instituição.
-* **Venda casada**: condicionar a venda de um produto à aquisição de outro (é diferentes de vantagens oferecidas a clientes).
-* **Insider trading**: uso de informações que ainda não se tornaram públicas (ex.: comprar ações porque sabe de uma futura fusão).
-* **Front running**: uso de informações sobre operações no mercado que influenciarão nos preços (ex.: comprar ações antes do cliente).
+* **risco legal**: relacionado à não execução de um contrato.
+* **risco de imagem**: relacionado à reputação da instituição.
+* **venda casada**: condicionar a venda de um produto à aquisição de outro (é diferentes de vantagens oferecidas a clientes).
+* **insider trading**: uso de informações que ainda não se tornaram públicas (ex.: comprar ações porque sabe de uma futura fusão).
+* **front running**: uso de informações sobre operações no mercado que influenciarão nos preços (ex.: comprar ações antes do cliente).
 * Controles internos: segregação de funções (**chinese wall**).
 * Restrições do investidor: capacidade x vontade de correr risco (idade, horizonte de investimentos, conhecimento do produto, tolerância ao risco etc.).
 * Finanças pessoais:
@@ -268,9 +269,9 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 		* relacionada ao medo de assumir o erro (ex.: não vender uma ação esperando ela valorizar).
 
 </br>
-</br>
 
 #### **Módulo 3 – Noções de economia e finanças**
+</br>
 
 **Produto Interno Bruto (PIB)**
 
@@ -347,17 +348,17 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 **Instrumentos de política monetária**
 
 * política de controle da liquidez e da inflação.
-    1. taxa SELIC
+    1. **taxa SELIC**
 	    * contracionista: + juros -> - investimento e consumo -> - inflação.
 	    * expansionista: - juros -> - investimento e consumo -> + PIB e emprego (pode provocar aumento da inflação).
-    2. taxa de redesconto (taxa de juros do BACEN para empréstimos aos bancos):
+    2. **taxa de redesconto** (taxa de juros do BACEN para empréstimos aos bancos):
     	* contracionista: + taxa de redesconto -> - disponibilidade de crédito -> - investimento e consumo -> - inflação.
     	* expansionista: - taxa de redesconto -> + disponibilidade de crédito -> + investimento e consumo -> + PIB.
-    3. depósitos compulsórios (parte dos recursos captados pelos bancos que devem ser depositados no BACEN):
+    3. **depósitos compulsórios** (parte dos recursos captados pelos bancos que devem ser depositados no BACEN)
     	* contracionista: + compulsório -> - disponibilidade de crédito -> - investimento e consumo -> - inflação. 
     	* expansionista: - compulsório -> + disponibilidade de crédito -> + investimento e consumo -> + PIB.
     	* o aumento do compulsório pode levar a um aumento da taxa de juros, pois os bancos terão menos recursos para emprestar.
-	4. open market (títulos públicos):
+	4. **open market (títulos públicos)**
     	* contracionista: BACEN emite/vende títulos -> - moeda em circulação -> - inflação (e + juros).
     	* expansionista: BACEN resgata/compra títulos -> + moeda em circulação -> + PIB.
     	* obs.: ao emitir títulos, há dois principais motivos para o aumento da taxa de juros:
@@ -381,16 +382,16 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 
 **Política cambial**
 
-* para evitar a desvalorização do real:
+* para **evitar a desvalorização** do real:
 	* BACEN vende dólares.
 	* a desvalorização ocorre quando há muita demanda por dólar.
-* para evitar a valorização do real:
+* para **evitar a valorização** do real:
 	* BACEN compra dólares.
 	* ocorre quando há pouca demanda por dólar.
-* real valorizado:
+* **real valorizado**:
 	* gera desemprego e queda da arrecadação.
 	* importaríamos muito, deixando de consumir aqui.
-* real desvalorizado:
+* **real desvalorizado**:
 	* gera inflação, pois o produtor vende seu produto a um preço mais alto lá fora e, por isso, também cobrará mais caro aqui.
 	* gera necessidade de aumento de impostos, pois há dívidas cotadas em dólares.
 </br>
@@ -423,28 +424,31 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 
 **Regimes de capitalização**
 
-* capitalização simples: não há capitalização dos juros (2% a.m. = 24% a.a.)
-* capitalização composta: juros sobre juros (VF = VP (1 + i)^n.
-*taxa equivalente: usada para capitalização composta: TE = [(1 + i) ^(n1/n2)] * 100.
+* **capitalização simples**:
+    * não há capitalização dos juros (2% a.m. = 24% a.a.)
+* **capitalização composta**:
+    * juros sobre juros (VF = VP (1 + i)^n.
+* **taxa equivalente**:
+    * usada para capitalização composta: TE = [(1 + i) ^(n1/n2)] * 100.
 	* n1 = período da taxa conhecida; n2 = período da taxa procurada.
 </br>
 </br>
 
 **Outros conceitos**
 
-* taxa livre de risco: SELIC.
-* custo de oportunidade: o que você perde escolhendo alguma coisa.
-* taxa interna de retorno (TIR): para definir se um negócio vale a pena.
-*PMT: payment – parcela.
-* WACC – weighted average capital cost – custo médio ponderado do capital: média ponderada dos juros/dividendos (capital de terceiros e capital próprio).
-* alavancagem: capital de terceiros/capital próprio.
-* prazo médio ponderado: mensura o prazo com base no valor de cada título.
-* cupom: pagamento periódico de rendimentos sobre um investimento (cupom zero recebe tudo no final).
-* mercado primário x secundário: 
-	* primário: empresa lança títulos no mercado pela primeira vez.
-	* secundário: ativos negociados entre os investidores (permite a liquidez dos ativos).
-* preço unitário (PU): valor do título hoje na data de negociação.
-</br>
+* **taxa livre de risco**: SELIC.
+* **custo de oportunidade**: o que você perde escolhendo alguma coisa.
+* **TIR**: taxa interna de retorno - para definir se um negócio vale a pena.
+* **PMT**: payment – parcela.
+* **WACC**: weighted average capital cost – custo médio ponderado do capital; média ponderada dos juros/dividendos (capital de terceiros e capital próprio).
+* **alavancagem**: capital de terceiros/capital próprio.
+* **prazo médio ponderado**: mensura o prazo com base no valor de cada título.
+* **cupom**: pagamento periódico de rendimentos sobre um investimento (cupom zero recebe tudo no final).
+* **mercado primário x secundário**: 
+	* **primário**: empresa lança títulos no mercado pela primeira vez.
+	* **secundário**: ativos negociados entre os investidores (permite a liquidez dos ativos).
+* **preço unitário (PU)**: valor do título hoje na data de negociação.
+
 </br>
 
 #### **Módulo 4 – Instrumentos de renda variável, renda fixa e derivativos**
@@ -958,3 +962,534 @@ mais de 720 dias | 15%
 * risco de contraparte: ao recolher a margem de garantia, a B3 arrume o risco de contraparte.
 * há nesse mercado o arbitrador, que acaba ajudando os preços a chegarem ao equilíbrio.
 
+</br>
+
+#### **Módulo 5 – Fundos de Investimentos**
+</br>
+
+**Características**
+
+* comunhão de recursos sob a forma de condomínio.
+* o dinheiro fica na mão de um gestor profissional.
+* os investidores são os cotistas e o gestor cuidará da aplicação.
+</br>
+</br>
+
+**Registro**
+
+* CNPJ próprio.
+* administrado por instituição financeira.
+* administrador é o responsável legal.
+	* ele faz o registro na CVM com os seguintes documentos e informações: regulamento, registro em cartório, informações complementares, declaração de contratos com terceiros, nome do auditor independente, CNPJ, informações básicas, lâmina, declaração de adequação à legislação.
+</br>
+</br>
+
+**Documentos dos fundos**
+
+* **regulamento**: regras de funcionamento.
+* **lâmina**: informações importante para o cotista; características operacionais e indicadores.
+* **formulário de informações complementares**: dados mais técnicos; complementa a lâmina.
+* **termo de adesão e ciência de risco**: assinado pelo investidor.
+</br>
+</br>
+
+**Chinese Wall**
+
+* segregação entre gestão e recursos próprios e de terceiros (deve haver segregação física).
+</br>
+</br>
+
+**Cota**
+
+* valor da cota: PL/nº de cotas.
+* o administrador calcula esse valor diariamente.
+* são escriturais e nominativas.
+* cotas de fundos abertos podem ser transferidas (exceção para casos especiais).
+</br>
+</br>
+
+**FI e FIC**
+
+* FI: fundos de investimentos compram ativos no mercado financeiro.
+* FIC: fundos de investimentos em cotas terão no mínimo 95% de cotas de outros fundos.
+</br>
+</br>
+
+**Fundos abertos e fundos fechados**
+
+* **abertos**:
+	* investidor pode entrar a qualquer momento.
+	* nº de cotas variável.
+	* não tem data de vencimento.
+	* recompra de cotas é garantida pelo administrador.
+	* **sem carência**: investidor por comprar e vender cotas a qualquer momento.
+	* **com carência**: entrada a qualquer momento, mas resgate apenas no final do prazo de carência.
+* **fechados**:
+	* não pode entrar e sair a qualquer momento.
+	* nº de cotas limitado (não é possível que o gestor crie cotas quando há aplicação de novos cotistas).
+	* tem data certa para entrada de cotistas (abertura do fundo ou período de novas captações).
+		* pode ou não ter um vencimento; se houver, há resgate compulsório das cotas no vencimento.
+	* recompra de cotas não ocorre a qualquer momento, mas ela pode ser negociada no mercado secundário.
+</br>
+</br>
+
+**Fundos exclusivos e fundos restritos**
+
+* **exclusivos**:
+    * apenas para um cotista (ele deve ser investidor **profissional**).
+* **restritos**:
+    * apenas para um pequeno grupo de cotistas (devem ser investidores **qualificados**).
+    * podem entrar empregados ou sócios das instituições administrativas ou gestoras e familiares do investidor profissional (desde que ele detenha no mínimo 90% das cotas).
+</br>
+</br>
+
+**Cota de abertura e cota de fechamento**
+
+* **abertura**:
+	* investidor sabe o valor no início do dia.
+	* só é permitido em fundos com baixa volatilidade de preços (renda fixa e exclusivos).
+* **fechamento**:
+	* investidor só saberá o valor da cota no final do dia.
+	* obrigatório para fundos com maior oscilação.
+</br>
+</br>
+
+**Marcação a mercado (apreçamento dos ativos)**
+
+* precifica as cotas dos fundos pelo valor de mercado dos títulos que compõem a carteira (valor do dia).
+* obrigatório para todos os fundos (exceto exclusivos).
+* o objetivo é evitar a transferência de riqueza entre cotistas.
+</br>
+</br>
+
+**Prazo para cotização e descotização**
+
+* **cotização**: compra de cotas.
+* **descotização**: venda de cotas.
+* solicitação de resgate, cálculo do valor (conversão) e pagamento.
+* pagamento deve ser feito em cheque, crédito em conta corrente ou ordem de pagamento.
+	* não pode ser maior do que 5 dias após a conversão.
+* o administrador pode declarar o fechamento do fundo para resgates no caso de fechamento do mercado ou em casos excepcionais de iliquidez dos ativos.
+	* se permanecer fechado por mais de cinco dias consecutivos, o administrador deve convocar uma assembleia geral extraordinária (AGE) para deliberar sobre as possibilidades de substituição do administrador ou gestor; reabertura ou não do fundo; possibilidade de pagamento em ativos financeiros, cisão ou liquidação do fundo.
+</br>
+</br>
+
+**Atos ou fatos relevantes**
+
+* o administrador deve divulgar imediatamente qualquer fato que possa interferir no valor das cotas ou na decisão do investidor.
+</br>
+</br>
+
+**Assembleia geral de cotistas**
+
+* **AGO**: ocorre uma vez ao ano; aviso com 30 dias de antecedência; 120 dias após o fechamento do exercício (assim como com ações).
+* **AGE**: a qualquer momento.
+* convocação: pelo administrador, com 10 dias de antecedência.
+* gestor, custodiante, cotista ou grupo de cotistas (com no mínimo 5% das cotas) também podem convocar; nesse caso, o administrador tem até 30 dias para convocar os demais participantes.
+* **não podem votar na assembleia**: administrador, gestor (sócios e funcionários dos mesmos), prestadores de serviços do fundo.
+* a ata deve ser divulgada em até 30 dias após a assembleia.
+</br>
+</br>
+
+**Funções e responsabilidades dos fundos**
+
+* **administrador**: responsável legal.
+* **gestor**: compra e venda de títulos/ativos; estratégia; prevenção à lavagem de dinheiro.
+* **distribuidor de cotas**: venda de cotas.
+* **custodiante**: guarda dos ativos e marcação a mercado.
+* **auditor independente**.
+</br>
+</br>
+
+**Direitos dos cotistas**
+
+* diariamente: o administrador deve informar o valor da cota e o PL do dia.
+* mensalmente: o administrador deve enviar extrato com informações gerais da rentabilidade.
+* anualmente: o administrador deve disponibilizar as demonstrações contábeis e o informe de rendimentos para o IR.
+</br>
+</br>
+
+**Distribuição por conta e ordem**
+
+* o fundo pode autorizar o distribuidor a realizar a subscrição de cotas por conta o ordem dos clientes.
+	* os distribuidores assumem o ônus e responsabilidades relacionadas ao clientes.
+</br>
+</br>
+
+**Despesas**
+
+* **taxa de administração**:
+	* cobrada por todos os serviços para sua operacionalização.
+	* taxa fica expressa em % ao ano, deduzida diariamente e cobrada mensalmente do PL do fundo; esta taxa afeta o valor da cota.
+	* a rentabilidade divulgada é líquida desta taxa.
+* **taxa de performance**:
+	* cobrada quando a rentabilidade supera o benchmark.
+	* limitada a 20% do que exceder o benchmark com período mínimo de 180 dias.
+	* pode ser cobrada somente depois de deduzidas todas as outras despesas.
+* **taxa de entrada e de saída**:
+	* não são comuns, mas podem ser cobradas.
+</br>
+</br>
+
+**Políticas de investimento**
+
+* **fundos passivos**: buscam acompanhar o benchmark.
+* **fundos ativos**: buscam superar o benchmark.
+* **fundos alavancados**: são fundos ativos e podem fazer empréstimos ou uso de derivativos, sendo exposto a maior risco.
+	* a responsabilidade para cobrir prejuízos é do cotista.
+</br>
+</br>
+
+**Classificação CVM**
+
+* **fundos de renda fixa**: devem investir no mínimo 80% em renda fixa e não têm taxa de performance (exceto dívida externa).
+	1. **curto prazo**: prazo médio menor do que 60 dias; prazo máximo de um ativo: 375 duas; é menos volátil.
+	2. **referenciado**: 95% do PL em ativos com referência ao benchmark; no mínimo 80% em títulos públicos federais ou títulos privados de baixo risco.
+	3. **dívida externa**: 80% do PL em ativos fora do país (pode ter taxa de performance).
+	4. **simples**: 95% do PL em títulos públicos federais ou títulos privados de baixo risco; dispensa termo de adesão e ciência de risco.
+</br>
+</br>
+
+**Fundo de crédito privado**
+
+* no mínimo 50% do PL em ativos de emissão privada.
+* maior risco de crédito.
+* alerta de perda substancial.
+</br>
+</br>
+
+**Fundo cambial**
+
+* no mínimo 80% do PL em ativos com parâmetros em moedas estrangeiras.
+* segue a PTAX e possui taxa de performance.
+</br>
+</br>
+
+**Fundo multimercado**
+
+* não há restrição em relação ao PL.
+* possui taxa de performance.
+</br>
+</br>
+
+**Fundos de ações**
+
+* no mínimo 67% do PL em ações.
+* segue o Ibovespa, IBrX, ISE etc.
+* é indicado para o longo prazo.
+* não há come cotas.
+* possui taxa de performance.
+</br>
+</br>
+
+**Classificação Anbima**
+
+* nível 1: classe de ativos.
+* nível 2: tipo de gestão / nível de risco.
+* nível 3: estratégia.
+</br>
+</br>
+
+**Limites de concentração por emissor**
+
+* para não haver concentração de risco.
+* até 100% em títulos públicos federais.
+* até 20% em instituição financeira.
+* até 10% em companhia aberta.
+* até 10% em fundo de investimento.
+* até 5% pessoa natural ou jurídica de direito privado.
+</br>
+</br>
+
+**Tributação**
+
+* **come cotas**:
+	* sistema de antecipação semestral de IR que ocorre nos últimos dias úteis de maio e novembro; ou seja, o fundo recolhe IR da valorização das cotas a cada 6 meses independente do resgate.
+	* alíquota mínima fixa: 20% no curto prazo e 15% no longo prazo.
+* **tabela regressiva**:
+    * aplica a tabela regressiva de IR no resgate considerando o que foi antecipado no come cotas.
+* fundos de ações não têm come cotas, apenas alíquota de 15% no resgate.
+* fundos com carência de até 90 dias terão come cotas no vencimento de cada carência.
+</br>
+</br>
+
+**Compensação de perdas**
+
+* existe para fundos de mesma classificação.
+* adm. não é obrigado a oferecer compensação.
+* somente após resgate do fundo com prejuízo.
+</br>
+</br>
+
+**Material técnico e publicitário**
+
+* **publicitário**:
+    * deve incluir link para o técnico.
+* **técnico**:
+    * objetivo e estratégia.
+    * público alvo.
+    * carência para resgate e prazo de operação.
+    * tributação.
+    * informações sobre canais de atendimento.
+</br>
+</br>
+
+**Histórico de rentabilidade**
+
+* apenas fundos com + de 6 meses.
+* incluir mês anterior; mês a mês ou valor acumulado no ano; incluir anos anteriores; usar a mesma metodologia ao longo do tempo.
+* fundos com menos de 12 meses: divulgar desde a data de constituição até o mês anterior.
+* a divulgação de rentabilidade deve acompanhar comparação com metas no regulamento.
+</br>
+</br>
+
+**Outros fundos**
+
+**FII - Fundo de Investimentos Imobiliários**
+
+* fechado com duração determinada ou não.
+* devem distribuir no mínimo 95% do lucro.
+* no máximo 25% do PL pode ser investido em cotas de FI ou renda fixa.
+* não pode atuar em mercados futuros ou de opções.
+* tributação:
+	* o administrador recolhe.
+	* rendimento (aluguel) deve ser dividido entre os cotistas mensalmente e é isento de IR.
+	* o ganho de capital (na venda da cota) possui IR de 20%.
+	* o prospecto deve ser elaborado pelo administrador fiduciário.
+</br>
+</br>
+
+**ETF – Exchange Traded Funds**
+
+* fundos de índices.
+* comercializados na B3 como ações.
+* visam acompanhar um índice de referência.
+* devem ter no mínimo 95% do PL no índice.
+* fundo fechado sem vencimento (negociado no mercado secundário).
+* tributação:
+	* 15% no resgate.
+	* não tem IOF nem come cotas.
+</br>
+</br>
+
+**FIDC – Fundos de Investimento em Direitos Creditórios**
+
+* mais de 50% em direitos creditórios.
+* apenas para investidores **qualificados**.
+* podem ser abertos ou fechados.
+* valor mínimo: 25 mil.
+* benefícios:
+	* redução do risco de crédito e liberação de espaço no balanço.
+	* maior liquidez.
+	* maior retorno do que a renda fixa.
+* tipos de cotas:
+	* sênior: não se subordina para amortização e resgate.
+	* subordinada: se subordina à sênior.
+* tem risco de crédito (calote).
+* podem operar no mercado de derivativos apenas para proteção.
+* tributação:
+	* tabela regressiva de IR; recolhido na fonte.
+	* não tem come cotas.
+</br>
+</br>
+
+**FIP – Fundo de Investimentos em Participações**
+
+* no mínimo 90% do PL em ações, debêntures ou outros ativos permutáveis em ações.
+* apenas para investidores qualificados.
+* condomínio fechado.
+* recursos destinados para companhias em fase de desenvolvimento.
+	* deve participar do processo decisório da companhia (indicar membros do conselho administrativo)
+* aplicação mínimo: 100 mil.
+* tributação: 15% no resgate.
+</br>
+</br>
+
+**Fundos off-shore**
+
+* gestor no Brasil investe no exterior e a sede do fundo é no exterior.
+
+</br>
+
+#### **Módulo 6 – Previdência Complementar Aberta**
+</br>
+
+**Previdência social**
+
+* obrigatória.
+* benefícios:
+	* salário maternidade, auxílio doença/acidente, pensão por morte, auxílio reclusão, salário família e aposentadoria.
+</br>
+</br>
+
+**Previdência complementar**
+
+* EAPC – Entidade Aberta de Previdência Complementar:
+	* apesar de ser um fundo, não pode comprar ativos no mercado financeiro. O dinheiro dos investidores deve ser alocado em um fundo de investimento específico (FIE), que é constituído especialmente para que as EAPCs possam acessar o mercado financeiro.
+</br>
+</br>
+
+**Taxa de carregamento**
+
+* muitas não cobram mais.
+* usada para despesas administrativas.
+* pode ser cobrada na entrada, na saída ou na portabilidade.
+* cobrada somente sobre o valor aplicado e nunca sobre o rendimento.
+* taxa máxima de 10%.
+</br>
+</br>
+
+**Taxa de administração**
+
+* semelhante aos FIs.
+* taxa fixa ao ano cobrada sobre o total do patrimônio da EAPC.
+</br>
+</br>
+
+**Portabilidade**
+
+* externa: migração entre instituições.
+* interna: migração entre planos.
+	* ex.: conservador para multimercado.
+* resgate ou portabilidade: pode mudar a cada 60 dias.
+</br>
+</br>
+
+**Tabela regressiva**
+
+prazo | alíquota
+----- | --------
+até 2 anos | 35%
+de 2 a 4 anos | 30%
+de 4 a 6 anos | 25%
+de 6 a 8 anos | 20%
+de 8 a 10 anos | 15%
+acima de 10 anos | 10%
+
+* indicada para o longo prazo (maior do que 4 anos).
+
+</br>
+</br>
+
+**Tabela progressiva**
+
+base de cálculo mensal | alíquota | fator dedutível
+---------------------- | -------- | ---------------
+até R$ 1.903,98 | isento | -
+de R$ 1.902,99 a R$ 2.826,65 | 7,5% | R$ 142,80
+de R$ 2.826,66 a R$ 3.751,05 | 15% | R$ 354,80
+de R$ 3.751,09 a R$ 4.664,68 | 22,5% | R$ 636,13
+acima de  R$ 4.663,68 | 27,5% | R$ 869,36
+
+* indicada para o curto prazo (menos do que 4 anos).
+* recomendada para renda baixa.
+* também chamada de compensável.
+	* pode ser restituído.
+* IR no resgate: paga 15% na fonte; depois faz o ajuste (para cima ou para baixo).
+</br>
+</br>
+
+**Migração entre planos**
+
+* de progressiva para regressiva pode ser feita a migração, mas o tempo é zerado.
+* de regressiva para progressiva não pode ser feita a migração.
+* a portabilidade pode ser feita de PGBL para PGBL e de VGBL para VGBL.
+</br>
+</br>
+
+**PGBL – Plano Gerador de Benefício Livre**
+
+* indicado para quem faz a declaração de renda completa
+* IR é cobrado sobre o valor total (contribuição e rendimento); tributação na fonte.
+* deduz 12% da renda bruta anual.
+</br>
+</br>
+
+**VBGL – Vida Gerador de Benefício Livre**
+
+* não deduz IR.
+* o IR é cobrado sobre a rentabilidade no resgate.
+* é aconselhável para quem não faz a declaração completa.
+
+</br>
+
+#### **Módulo 7 – Gestão e Mensuração de Performance e Riscos**
+</br>
+
+**Medidas estatísticas**
+
+* **variância**: mede o grau de dispersão dos dados; é o desvio em relação à média.
+* **desvio padrão**: é a raiz quadrada da variância; medida de risco: volatilidade do ativo; quanto maior o desvio, maior o risco.
+* **covariância**: quando os dados se movem em conjunto; quanto mais próxima de 0, menor a chance de ter um padrão nos dados.
+* **correlação**: medida de associação; varia de -1 até 1 (correlação perfeita negativa e correlação perfeita positiva respectivamente); próxima de zero: não há correlação.
+* **coeficiente de determinação (R²)**:  varia de 0 até 1; é a correlação elevada ao quadrado; mede o quanto a variação de uma variável explica da variação de outra.
+* **distribuição normal**
+    * na imagem a seguir está um exemplo de distribuição normal, juntamente com os desvios padrão e os seus respectivos percentuais.
+
+![dist-normal](img/mercado-financeiro/dist-normal.png)
+</br>
+</br>
+
+**Tipos de risco**
+
+* **mercado**: variação dos preços.
+	* **risco sistemático**: risco que envolve todo o mercado;
+	* **risco não sistemático**: envolve apenas uma empresa.
+* **liquidez**: não conseguir vender o ativo a um preço justo.
+* **crédito**: calote (cross default diminui esse risco); ações não têm esse risco.
+* **operacional**: falha no processamento da operação (dedo gordo).
+* **contraparte**: risco da parte não cumprir o combinado (clearing acaba com esse risco).
+* **risco país**: capacidade de pagamento do país.
+</br>
+</br>
+
+**Seleção de carteiras e modelo de Markowitz**
+
+* quanto maior o risco, maior a rentabilidade.
+* a diversificação diminui o risco.
+* quanto maior o rating, mais seguro e menor o risco.
+</br>
+</br>
+
+**Beta**
+
+* é um indicador de risco sistemático de uma ação.
+* quanto maior o valor de beta, maior o risco.
+* calculado em relação a uma carteira de mercado.
+	* beta > 1: mais agressivo do que o ibovespa.
+	* beta = 1: neutro.
+	* beta < 1: ativo defensivo.
+</br>
+</br>
+
+**Duration de Macaulay**
+
+* quanto maior o duration, maior o risco de mercado.
+* título zero cupom: duration igual ao prazo de vencimento.
+* título com cupom: duration menor do que o prazo de vencimento.
+</br>
+</br>
+
+**Medidas de performance**
+
+* **índice de Sharpe**:	
+    * mede a relação risco retorno.
+    * quanto maior, melhor a relação.
+    * fórmula: (retorno do fundo – retorno do ativo livre de risco) / desvio padrão do fundo.
+    * **índice de Sharpe modificado**: usa o var no lugar do desvio padrão.
+* **índice de Traynor**:
+	* também mensura a relação risco retorno.
+	* porém, usa o beta como medida de risco.
+	* fórmula: (retorno do fundo – retorno do ativo livre de risco) / beta do fundo.
+	* entende que usar o risco sistemático é mais eficiente do que o risco total.
+	* quanto maior, melhor.
+</br>
+</br>
+
+**Administração e gerenciamento de risco**
+
+* **tracking error**: mede a aderência do fundo ao banchmark; quanto maior o tracking, menos aderente.
+* **VAR – value at risk**: quanto o fundo ou carteira pode perder em valor de mercado.
+* **back testing**: voltar e testar a metodologia de risco para saber se está dentro dos limites estabelecidos pelo VAR.
+* **stop loss**: proteger a carteira contra perdas superiores ao VAR.
+* **stress test**: “VAR” para cenários de estresse do mercado.
