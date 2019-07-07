@@ -444,3 +444,517 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 	* primário: empresa lança títulos no mercado pela primeira vez.
 	* secundário: ativos negociados entre os investidores (permite a liquidez dos ativos).
 * preço unitário (PU): valor do título hoje na data de negociação.
+</br>
+</br>
+
+#### **Módulo 4 – Instrumentos de renda variável, renda fixa e derivativos**
+</br>
+
+#### **4.1 Renda variável**
+
+* menor fração do capital social de uma empresa.
+    1. **ações ordinárias (ON)**: direito a voto.
+        * a empresa pode emitir até 100% de ON.
+    2. **ações preferenciais (PN)**: preferência nos dividendos.
+	    * pelo menos 10% a mais de dividendos do que a ON.
+	    * no máximo 50% das ações podem ser dessa categoria.
+* três anos consecutivos sem distribuir dividendos: a ação PN passa a dar direito ao voto.
+* o controlador da companhia precisa manter 50% + 1 das ON.
+</br>
+</br>
+
+**Underwriting (subscrição)**
+
+* ofertante: a empresa ofertará ações (responsável pelas informações).
+* banco coordenador: líder da distribuição.
+* banco liquidante (ou mandatário): vai liquidar as vendas.
+* escriturador: abre e mantem o livro de registros e envia informações ao acionista.
+* central depositária: assume fiduciariamente a titularidade dos ativos no livro dos acionistas.
+* custodiante: movimenta as ações dos clientes na central depositária.
+* market maker (formador de mercado): mantém oferta de compra e venda durante a sessão de negociação para manter a liquidez.
+* agente fiduciário: presente apenas na oferta pública de ativos de renda fixa (debêntures, CRI, CRA). Protege os investidores.
+* agências de rating: classificam o risco do emissor de um título de renda fixa (AAA a D).
+* opções de underwriting:
+	1. melhores esforços: o que sobrar volta para a empresa (ou seja, risco da empresa).
+	2. residual: banco tenta vender novamente (risco do banco e da empresa).
+	3. garantia firme: banco compra 100% (risco do banco).
+</br>
+</br>
+
+**Prospecto**
+
+* de responsabilidade do banco coordenador.
+* contém características da oferta pública.
+	* deve destacar que a oferta ainda está sob análise da CVM.
+	* depois da aprovação, deve ser elaborado o prospecto definitivo.
+</br>
+</br>
+
+**Conteúdo da oferta**
+
+* pode ser dada prioridade aos antigos acionistas.
+* se houver muita demanda, pode ser ofertado um **lote suplementar**.
+	* não pode passar de 15% da quantidade ofertada.
+* coleta de intenção de investimentos.
+	* pode haver recebimento de reservas para subscrição ou aquisição de valores mobiliários.
+* material publicitário: dependerá da aprovação da CVM.
+</br>
+</br>
+
+**Initial Public Offering (IPO)**
+
+* oferta no mercado primário.
+* reserva: intenção de compra.
+	1. ordem a mercado: investidor não estabelece o preço a pagar.
+	2. ordem limitada: investidor limita a compra a um valor.
+</br>
+</br>
+
+**Direitos do acionista**
+
+1. **ganho de capital**: quando o investidor vende ações por preço superior ao da compra.
+2. **subscrição**: garante a possibilidade de o acionista manter a mesma participação no capital total.
+3. **tag along**: acionista minoritário pode vender suas ações por no mínimo 80% do valor pago ao majoritário.
+	* em caso de troca de controle da companhia.
+</br>
+</br>
+
+**Eventos societários**
+
+* **dividendos**: distribuição de parte dos lucros aos acionistas pagos exclusivamente em dinheiro.
+	* o estatuto deve prever a %, senão o mínimo é 25% (isento de IR).
+* **juros sobre o capital próprio**: quando a empresa retém parte do lucro para reinvestimento ela deverá pagar juros por isso (o acionista paga 15% de IR retido na fonte).
+* **bonificações**: distribuição de novas ações aos atuais acionistas em função do aumento do capital.
+* **inplit** (grupamento): redução da quantidade de ações aumentando o valor de cada ação. Objetivo: redução do risco.
+* **split** (desdobramento): aumento da quantidade de ações reduzindo o valor de cada ação. Objetivo: aumento da liquidez.
+</br>
+</br>
+
+**Despesas**
+
+* **corretagem**: tarifa para a corretora por toda ordem de compra e venda.
+* **custódia**: tarifa de manutenção da conta (pode haver isenção).
+* **emolumentos**: cobrados pela bolsa por pregão em que tenha ocorrido negócio.
+	* a taxa é de 0,035% do valor financeiro da operação.
+* **IR**: alíquota única de 15%.
+	* recolhimento pelo próprio investidor via DARF.
+	* apurado no mês da negociação e deve ser recolhido até o último dia útil do mês subsequente.
+	* lucro do investidor é o valor de suas vendas menos suas despesas.
+	* a corretora recolhe 0,005% na fonte (“dedo duro”: antecipação de IR).
+		* fica dispensado se o valor for menor ou igual a R$ 1,00.
+	* pessoa física que vende em um mesmo mês menos do que R$ 20 mil está isenta de IR.
+	* não há IOF no mercado de ações.
+	* **day trade**: alíquota de 20% de IR (via DARF).
+		* corretora recolhe 1% sobre o lucro (dedo duro).
+		* não há isenção.
+</br>
+</br>
+
+**Compensação de perdas**
+
+* se houver prejuízo, pode ser compensado no IR posteriormente.
+* ex.: prejuízo de R$ 5.000,00 em abril e lucro de R$ 8.000,00 em maio.
+	* IR sobre R$ 3.000,00 apenas.
+* pode ser feita a qualquer momento (se ficar para o próximo ano, vai para a declaração anual).
+* apenas investimentos na mesma modalidade.
+</br>
+</br>
+
+**Governança corporativa**
+
+* Nível 1:
+	* % mínima de ações em free float (livre circulação) de 25%.
+	* conselho de administração com no mínimo 3 membros com mandato unificado de até 2 anos.
+	* calendário público de eventos corporativos.
+	* tag along: 80% para ON.
+* Nível 2:
+	* todas as exigências do nível 1.
+	* conselho de administração com no mínimo 5 membros (sendo no mínimo 20% independentes) com mandato unificado de até 2 anos.
+	* demonstrativos financeiros nos padrões internacionais.
+	* tag along: 100% para ON e 80% para PN.
+* Novo Mercado:
+	* todas as exigências do nível 2.
+	* 100% das ações ON.
+	* IPO mínimo de 10 milhões.
+	* reunião pública anual em até 5 dias úteis após divulgação dos resultados trimestrais.
+	* conselho de administração com no mínimo 5 membros (2 ou 20% - o que for maior - independente).
+</br>
+</br>
+
+**Tipos de riscos**
+
+* mercado: quando o preço muda.
+* liquidez: dificuldade para vender por preço justo.
+* em renda variável não há risco de crédito (risco de não pagamento).
+</br>
+</br>
+
+**Análises**
+
+* **técnica**: análise gráfica.
+	* observa os preços passados (indicada para o curto prazo).
+* **fundamentalista**: fatores macroeconômicos e fundamentos da empresa.
+	* ajuda a saber se um preço é justo ou não.
+	* indicadores utilizados:
+		* **LPA (lucro por ação)**: lucro anual via dividendos: lucro líquido/quantidade de ações.
+		* **P/L (preço/lucro)**: quanto tempo demora para recuperar o investimento: valor da ação/dividendos.
+		* **EBITDA** (earnings before interest, taxes, depreciation and amortization): lucro antes dos impostos, taxas, depreciação e amortização. Mede a capacidade de geração de caixa.
+</br>
+</br>
+
+**Recibos de depósitos de ações**
+
+* ADR – American depositary receipt: empresa com sede fora dos EUA, mas com títulos negociados em sua bolsa.
+* BDR – Brazilian depositary receipt: empresa com sede fora do Brasil, mas com títulos negociados aqui.
+</br>
+</br>
+
+**Assembleia geral (ordinária e extraordinária)**
+
+* AGO: convocada anualmente para deliberar sobre demonstrações contábeis
+* AGE: demais assembleias.
+</br>
+</br>
+
+**Outros termos do mercado de ações**:
+
+* **swing trade**: investimento de curto prazo.
+* **buy and hold**: ações mantidas por longo período.
+* **circuit breaker**: se acionado, interrompe o pregão.
+	* B3: acionado se houver queda de 10% no índice Ibovespa (30 min. de paralização); se continuar a queda e chegar a 15%: 1 hora de paralização.
+* **DARF**: documento de arrecadação da receita federal.
+* **home broker**: canal de relacionamento entre investidores e corretoras.
+* **lote padrão**: lote de títulos iguais e em quantidade prefixada.
+* **roadshow**: apresentar empresa para investidores.
+* **bookbuilding**: formação de preços dos ativos normalmente por meio de leilão.
+</br>
+</br>
+
+#### **4.2 Renda fixa**
+
+* título com vencimento e taxa de juros conhecida no momento da contratação.
+</br>
+</br>
+
+**IOF: Imposto sobre Operações Financeiras**
+
+* cobrado até o 29º dia; isento a partir do 30º.
+* 4-3-3 (1º dia: 96%; 2º dia: 93%; 3º dia: 90%, . . .,  29º dia: 3%; 30º dia: 0).
+</br>
+</br>
+
+**Tabela regressiva de IR**
+
+prazo | percentual
+----- | ----------
+até 180 dias | 22,5%
+181 a 360 dias | 20%
+361 a 720 dias | 17,5%
+mais de 720 dias | 15%
+
+* o IR é calculado sobre o rendimento após incidência de IOF.
+* há isenção para pessoa física em ativos relacionados a imóveis e agronegócio.
+</br>
+</br>
+
+**FGC – Fundo Garantidor de Crédito**
+
+* mantido pelos bancos.
+* instituição privada sem fins lucrativos, cujo objetivo é proteger os investidores contra o risco de crédito.
+* cobertura de até 250 mil reais por CPF, por instituição.
+	* limitada a 1 milhão de reais por um período de 4 anos.
+* conta corrente, CDB, LCI, LCA, poupança, letras de câmbio, letra imobiliária, hipotecária etc.
+</br>
+</br>
+
+**Caderneta de poupança**
+
+* rentabilidade mensal – aniversário no dia da aplicação (dias 29, 30 e 31 = 01).
+* liquidez diária, mas perda de rendimento em caso de saque antes do aniversário.
+* **rentabilidade**: (regra a partir de 04/05/2012):
+	1. SELIC maior do que 8,5% -> 0,5 a.m. (ou 6,17% a.a.) + TR.
+	2. SELIC menor ou igual a 8,5% -> 70% da SELIC + TR.
+* PJ tem rentabilidade trimestral.
+* não há IOF.
+* isenção de IR para pessoa física.
+* no mínimo 65% do saldo da poupança deve ir para o crédito imobiliário.
+</br>
+</br>
+
+**CDB – Certificado de Depósito Bancário**
+
+* maneira de o banco tomar empréstimo de seus clientes.
+* pode ser pré ou pós fixado.
+* garantido pelo FGC.
+* pode ou não oferecer liquidez diária.
+* tabela regressiva de IOF e IR com retenção na fonte.
+* apresenta risco de crédito, de liquidez e de mercado.
+* não pode ser indexado à variação cambial.
+</br>
+</br>
+
+**LF – Letra Financeira**
+
+* semelhante ao CDB.
+* elevado risco de crédito, pois não possui FGC.
+* prazo mínimo de vencimento: 24 meses (portanto, IR de 15%).
+* pode ter vencimento mais longo e admite pagamento de cupons.
+* valor mínimo para emissão: 150 mil.
+</br>
+</br>
+
+**DPGE – Depósito a Prazo com Garantia Especial**
+
+* cobertura do FGC de até 20 milhões (por CPF, por instituição).
+* mais utilizado por bancos menores.
+* pode ser pré ou pós fixado.
+* prazo de vencimento: de 6 a 36 meses.
+* IR conforme tabela regressiva e tributação na fonte.
+</br>
+</br>
+
+**LCI – Letra de Crédito Imobiliário**
+
+* possui lastro, isto é, garantia real; também possui garantia do FGC.
+* pessoa física é isenta de IR.
+* prazos:
+    * prazo mínimo de 12 meses, se atualizada anualmente por IPCA ou IGP-M.
+    * prazo mínimo de 36 meses, se atualizada mensalmente por IPCA ou IGP-M.
+    * prazo mínimo de 90 dias, se não for atualizada pelos índices de inflação.
+</br>
+</br>
+
+**LCA – Letra de Crédito do Agronegócio**
+
+* semelhante ao LCI, mas direcionado ao agronegócio.
+* a garantia pode ser uma propriedade rural ou mesmo o penhor da safra.
+* não pode ser emitida com atualização mensal por índice de preços.
+</br>
+</br>
+
+**CCI – Cédula de Crédito Imobiliário**
+
+* o banco antecipa os recebíveis.
+* IR conforme tabela regressiva.
+* não possui FGC, mas possui garantia real.
+* qualquer investidor pode ter acesso, mas costuma ser negociado entre o emissor e companhias securitizadoras e fundos de investimento.
+</br>
+</br>
+
+**CRI – Certificado de Recebível Imobiliário**
+
+* título de longo prazo emitido por companhia securitizadoras.
+	* transforma fluxos futuros em valores mobiliários.
+* não possui FGC, mas possui lastro no crédito imobiliário (garantia real).
+* emissão mínima: 300 mil reais.
+* isenção de IR para pessoa física.
+</br>
+</br>
+
+**CRA – Certificado de Recebível do Agronegócio**
+
+* lastro no agronegócio e mesmas características do CRI.
+</br>
+</br>
+
+**CPR – Cédula do Produtor Rural**
+
+* emitido por produtor rural ou cooperativa para financiar a produção.
+* produtor antecipa a venda de sua produção.
+* banco ou seguradora dão aval/garantia.
+* deve ser registrada em cartório.
+* lastro geralmente é o penhor rural; não tem FGC.
+* pode ser negociado no mercado primário ou secundário.
+* pessoa física isenta de IR.
+</br>
+</br>
+
+**CDCA – Certificado de Direitos Creditórios do Agronegócio**
+
+* emitido por cooperativas ou PJs da área.
+* negociação de recebíveis do agronegócio.
+* geralmente cooperativa em posse de CPR deseja  emitir CDCA.
+* pode ser pré ou pós fixada.
+* pessoa física isenta de IR.
+* emitido com alienação fiduciária.
+</br>
+</br>
+
+**COE – Certificado de Operações Estruturadas**
+
+* mescla elementos de renda fixa e variável.
+* oferecidos por bancos de investimentos.
+* pode ou não ter capital protegido (valor nominal protegido x em risco).
+* não tem FGC.
+* tabela regressiva de IR.
+* documento de informações essenciais.
+</br>
+</br>
+
+**Operação compromissada**
+
+* possui lastro em ativos de propriedade do banco.
+* possui cobertura do FGC se o lastro por título emitido por empresa ligada ao banco emissor.
+* tributação conforme tabela regressiva de IR e sujeito a IOF.
+</br>
+</br>
+
+**CCB - Cédula de Crédito Bancário**
+
+* promessa de pagamento em dinheiro decorrente de operação de crédito.
+* não tem FGC.
+* risco de crédito associado ao emissor do título.
+* assim como o CPR, é uma promessa de pagamento.
+* tributação conforma tabela regressiva de IR.
+</br>
+</br>
+
+**Títulos públicos federais**
+
+* são cinco tipos de títulos:
+    1. **LTN – Letra do Tesouro Nacional (tesouro prefixado).**
+    2. **LFT – Letra Financeira do Tesouro (tesouro SELIC).**
+    3. **NTN-B (principal) – Nota do Tesouro Nacional série B principal (tesouro IPCA+).**
+    4. **NTN-B – Nota do Tesouro Nacional série F (tesouro IPCA+ com juros semestrais).**
+    5. **NTN-F – Nota do Tesouro Nacional série F (tesouro prefixado com juros semestrais).**
+* LTN: sempre negociada com deságio.
+* LFT: pode apresentar rentabilidade diferente da SELIC devido ao ágio ou deságio.
+	* com ágio: inferior à SELIC; com deságio: superior à SELIC.
+	* quanto maior a taxa de juros, menor o preço de compra.
+* não tem FGC (e nem precisa).
+* tributado conforme tabela regressiva.
+* pós-fixados: para alta da taxa de juros.
+* pré-fixados: para queda da taxa de juros.
+* híbridos: inclui proteção para a inflação.
+</br>
+</br>
+
+**Debêntures**
+
+* títulos de renda fixa emitidos por empresas não financeiras.
+* SA de capital aberto para captação de recursos de longo prazo (capital fixo).
+* pode ser conversível: resgatada em ações no final.
+* pode haver resgate antecipado.
+* não tem FGC.
+* tributação conforme tabela regressiva.
+* garantia: (re-flu-qui-su)
+	1. **real**: aliena um bem à operação.
+	2. **flutuante**: também aliena um bem, mas ele pode ser trocado.
+	3. **quirografária**: sem preferência, isto é, se houver falência o investidor concorre igualmente com os demais credores.
+	4. **subordinada**: não concorre em igualdade com outros credores, sendo subordinados e eles.
+* escritura: deve conter todas as informações sobre as debêntures.
+* agente fiduciário:
+	* não é analista ou garantidor da emissão.
+	* exerce fiscalização, verificando a escritura.
+	* pode usar qualquer ação para proteger os direitos do debenturista.
+		* executar garantias reais, requerer falência da emitente etc.
+* **debêntures incentivadas**:
+	* isenção de IR para pessoa física.
+	* IR de 15% para pessoa jurídica.
+	* prazo mínimo para resgate: 24 meses.
+</br>
+</br>
+
+**NP - Notas Promissórias**
+
+* emitidas por SAs não financeiras.
+* para captação de curto prazo (capital de giro).
+* prazos: 
+	* 360 dias, se emitida por SA com capital aberto.
+	* 180 dias, se emitida por SA com capital fechado.
+	* prazo mínimo: 30 dias.
+* não tem FGC nem garantia real.
+</br>
+</br>
+
+**Código ANBIMA para distribuição de produtos de investimentos**
+
+* as instituições estão dispensadas de observar esse código para:
+	1. união, estados, municípios e DF (incluindo RPPS).
+	2. PJ dos segmentos classificados como middle e corporate.
+	3. caderneta de poupança.
+</br>
+</br>
+
+#### **4.3 Derivativos**
+
+* instrumentos de investimentos que derivam de um ativo.
+* objetivo: transferência de risco.
+* participantes (players):
+	1. **hedger**: aquele que busca proteção.
+	2. **especulador**: assume o risco para lucrar com a oscilação de preços.
+	3. **arbitrador**: busca lucro em distorções nos preços dos ativos em diferentes mercados.
+</br>
+</br>
+
+**Mercado de swap**
+
+* swap: troca (de fluxo financeiro).
+	* troca de indexadores.
+	* contraparte: instituição financeira.
+* contrato customizado.
+* valor base: valor do contrato.
+* ponta passiva: indexador que o investidor deixa de receber após contratação do swap.
+* ponta ativa: indexador que o investidor passa a receber após contratação do swap.
+* ajuste positivo: valor que o investidor recebe se sua ponta ativa render mais do que a passiva.
+* ajuste negativo: valor que o investidor para se sua ponta passiva render mais do que a ativa.
+* IR retido na fonte pela contraparte (tabela regressiva).
+* não há compensação de perdas.
+* swap de fluxo de caixa: modalidade em que os justes são feitos periodicamente.
+* swap com pagamento final: swap bullet – faz o acerto dos ajustes somente no vencimento.
+* risco de crédito: contraparte não honrar o pagamento.
+* risco de mercado: os preços dos ativos são incertos.
+</br>
+</br>
+
+**Mercado de opções**
+
+* contrato que dá ao seu detentor o direito, mas não o dever – de comprar ou vender determinado ativo pelo preço de exercício.
+* contrato padronizado.
+* o lançador da opção tem a obrigação de exercer o contrato se assim a contraparte desejar.
+* termos:
+	* **call**: opção de compra.
+	* **put**: opção de venda.
+	* lançador: player que vende a opção.
+	* titular: player que compra a opção.
+	* prêmio: preço de negociação pago pelo titular.
+	* exercício de opção: operação pela qual o titular exerce seu direito.
+	* strike: preço de exercício da opção.
+	* **opção americana**: pode ser liquidada a qualquer momento durante a vigência do contrato.
+	* **opção europeia**: pode ser liquidada apenas no vencimento.
+	* **in the money**: exercer uma opção representa lucro para o titular.
+	* **out of the money**: exercer uma opção representa prejuízo para o titular.
+	* **at the money**: exercer uma opção não representa lucro nem prejuízo.
+* o titular tem como perda máxima o prêmio pago pela opção.
+	* esse é o lucro máximo do lançador.
+</br>
+</br>
+
+**Mercado a termo**
+
+* semelhante ao mercado de opções, mas as partes são obrigadas a exercer o contrato.
+* contrato customizado.
+* termos:
+	* vendedor: tem o compromisso de entregar o bem na data prevista com o preço acordado.
+	* comprador: compromisso de pagar o preço acordado.
+	* prazo: não há regra, mas não é comum um prazo maior do que 999 dias.
+	* liquidação antecipada: pode ocorrer por decisão do vendedor.
+	* formas de negociação: mercado de balcão e registrada na clearing da B3.
+	* liquidação: física ou por diferença financeira.
+		* quando não há entrega física, havendo apenas liquidação financeira (non derivable foward).
+* exige garantia e tem risco de crédito.
+* IR: 15%.
+</br>
+</br>
+
+**Mercado futuro**
+
+* negociar no presente a compra ou venda de um ativo no futuro pelo preço combinado hoje.
+* contrato padronizado.
+* **margem de garantia**: a B3 terá um valor alocado pelo cliente que servirá de garantia da operação.
+* liquidação antecipada: não há essa possibilidade, mas o investidor pode inverter sua operação anulando sua exposição ao contrato.
+* **ajuste diário**: as cotações dos ativos e dos contratos são atualizadas diariamente.
+	* isso não ocorre nos outros derivativos.
+* risco de contraparte: ao recolher a margem de garantia, a B3 arrume o risco de contraparte.
+* há nesse mercado o arbitrador, que acaba ajudando os preços a chegarem ao equilíbrio.
+
