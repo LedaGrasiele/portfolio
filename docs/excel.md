@@ -31,7 +31,8 @@ A função índice é usada para retornar um valor ou a referência a um valor d
 
 </br>
 
-##### **2.1 Matricial**
+**2.1 Matricial**
+
 A forma matricial da função índice retorna o valor de um elemento em uma tabela ou uma matriz, selecionado pelos índices de número de linha e coluna (nesta ordem: primeiro a linha e depois a coluna).
 A fórmula possui dois argumentos obrigatórios e um opcional: </br>
 - o primeiro argumento é o intervalo de células da constante ou matriz; </br>
@@ -45,7 +46,8 @@ Veja um exemplo a seguir.
 
 </br>
 
-##### **2.2 Referencial**
+**2.2 Referencial**
+
 A função índice referencial retorna a referência da célula na interseção de linha e coluna específicas. Se a referência for composta de seleções não adjacentes, você poderá escolher a seleção que deseja examinar. 
 
 Esta versão da função índice permite que você selecione mais de uma área (ou seja, pode ser usada também com mais de uma tabela).
@@ -193,29 +195,108 @@ Neste tópico, vamos abordar como utilizar ferramentas de várias tabelas dinâm
 </br>
 
 #### **12. Guia Desenvolvedor**
+A guia Desenvolvedor não é habilitada por padrão. É interessante habilitá-la, pois ela permite que tenhamos acesso a comandos mais avançados como Macros, botões e acesso ao VBE (Visual Basic Editor).
+
+No guia ``arquivo``, clique em ``opções`` e ``personalizar faixa de opções``. Depois em ``guias principais`` marque a caixa de seleção ``desenvolvedor``.
+
+Depois que você optar por mostrar a guia, ela permanecerá visível, a menos que você desmarque a caixa de seleção ou precise reinstalar um programa do Microsoft Office.
 
 </br>
 
 #### **13. Macros**
 
+Macro é um conjunto de ações e comandos que são gravados ou programados com o objetivos de serem executados em um único comando. É uma forma de automatizar ações. As macros são armazenadas em uma linguagem chamada VBA (Visual Basic for Applications).
+
+Gravando uma macro:
+Passo 1: na guia ``desenvolvedor`` clique em ``gravar macro``.
+Passo 2: dê um nome para a sua macro, de preferência sem espaços, acentos e cedilha.
+Passo 3: indique uma tecla de atalho. Utilize teclas de atalho que ainda não existam. Por exemplo: ``Ctrl``+ ``Shift`` + ``C``.
+Passo 4: armazene a macro nesta pasta de trabalho.
+Passo 5 (opcional): informe a descrição, o que essa macro é capaz de fazer. Será o comentário no VB.
+Passo 6: aperte ``ok``.
+
+A partir desse momento, suas ações serão convertidas em códigos, para serem executadas quando você solicitar.
+
+Selecione uma célula e digite o texto: Oi, mundo! Aperte a tecla ``enter``.
+
+Passo 7: clique em ``parar gravação``.
+Agora teste o resultado: apague o conteúdo da célula e digite ``Ctrl``+ ``Shift`` + ``c``.
+
+</br>
+
+**Referências absolutas**:
+
+Gravar em referências absolutas significa dizer que será representado no Visual Basic a referência exata da sua execução. Ou seja, se você está gravando a macro, selecionou a célula A6 e pediu para preencher o fundo da célula de vermelho, quando solicitar para executar a macro, ela será executada exatamente na célula A6.
+
+</br>
+
+**Referências relativas**:
+
+Macros com referências relativas são gravadas começando na célula que está selecionada. Por exemplo: se marcamos a opção “utilizar referências relativas” para gravar uma macro, a célula selecionada será a referência inicial. Isto é, a sua função não será executada apenas na célula onde você a gravou, mas sim em qualquer célula que você selecionar.
+
+Para usar esta função, você deve ativar a opção ``usar referências relativas`` logo abaixo da opção ``gravar macro``.
+
+Uma macro pode ser editada no Editor do Visual Basic.
+
+É importante tomar cuidado com a execução de uma macro, pois após a execução, não é possível voltar, ou seja, não é possível dar ``ctrl`` + ``z``.
+
+</br>
+
 **a) Botões para Macros** 
+
+Uma macro pode ser executada também a partir de uma figura, de um texto em WordArt ou um botão. Para adicionar uma macro em um botão siga as instruções: 
+
+Passo 1: Na guia ``Desenvolvedor``, selecione ``Inserir`` e`clique na primeira opção (``botão``).
+Passo 2: Desenhe o botão em alguma área de sua planilha.
+Passo 3: Atribua uma macro ao botão.
+Passo 4: Aperte Ok. Pronto! A partir de agora, toda vez que você clicar no botão a macro será executada.
+Para editar o nome no botão, clique com o botão direito e selecione Editar Texto.
+
+</br>
+
 **b) Habilitar Macros** 
+
+Na guia ``Arquivo``, ``Opções``, é possível habilitar as macros com restrições ou não. Acesse a opção ``Central de Confiabilidade``. Clique em ``Configurações de Central de Confiabilidade`` e ``Configurações de Macro``..
+
+A Microsoft não recomenda habilitar todas as macros. Neste sentido, sugerimos que marque a opção ``Desabilitar todas as macros com notificação``.
+
+</br>
+
 **c) Salvar pasta de trabalho**
+
+Para salvar uma pasta de trabalho com a possibilidade de executar as macros do arquivo, é necessário salvar como pasta habilitada para macros. Assim, ela ficará com a extensão de arquivo .xlsm 
+
+Passo 1: Na guia Arquivo, selecione a opção Salvar como.
+Passo 2: Marque o tipo, Pasta de Trabalho Habilitada para Macro do Excel.
+Passo 3: Aperte OK!
+
+Agora todas as macros que foram gravadas ou programadas no VB estarão disponíveis para posterior utilização. 
+
+</br>
+
 **d) Criando uma Macro no VBE**
 
+Passo 1: Abra o Visual Basic (Alt+F11) ou pela guia Desenvolvedor.
+Passo 2: No menu Inserir, do VB, insira um novo Módulo.
+Passo 3: Copie do arquivo Macros.txt.
+Passo 4: Cole no Módulo que você inseriu.
+Passo 5: Feche o VB. 
+
 </br>
 
-### **Atalhos:**
+### **Atalhos**
 
 </br>
 
-#### **1. Selecionar linhas e colunas:**
+**1. Selecionar linhas e colunas:**
+
 Primeira opção: clicar no número da linha ou no nome da coluna.
 Segunda opção: parar na coluna de interesse e usar ctrl e espaço (seleciona a coluna inteira); ou parar na linda de interesse e pressionar ``shift`` + ``espaço`` (seleciona a linha inteira).
 
 </br>
 
-#### **2. Inserir linhas:**
+**2. Inserir linhas:**
+
 Primeira opção: clicar no número da linha e clicar em Inserir ou clicar no número da linha e digitar ``i``.
 
 Segunda opção: selecionar a linha abaixo da qual você pretende inserir uma nova linha (lembre-se da primeira dica: selecione a linha utilizando o atalho ``shift`` + ``espaço``). Depois que a linha estiver selecionada, pressione ``ctrl`` + ``+`` (caso não tenha o + separado no seu teclado, pressione ``ctrl`` + ``shift`` + ``+``).
@@ -224,12 +305,14 @@ Dica adicional: caso você queira incluir mais de uma linha, basta selecionar o 
 
 </br>
 
-#### **3. Apagar linhas:**
+**3. Apagar linhas:**
+
 Para apagar a linha, o atalho segue a mesma ideia da dica anterior: selecione a linha e pressione ``ctrl`` + ``-``.
 
 </br>
 
-#### **4. Andando pelas células da planilha:**
+**4. Andando pelas células da planilha:**
+
 Se você tem uma planilha com muitos dados e quer andar entre as células, há alguns atalhos úteis para isso:
 
 Para ir para a última linha: ``ctrl`` + ``seta para baixo``; </br>
@@ -240,7 +323,8 @@ Para ir para a primeira célula da planilha (A1): ``ctrl`` + ``home``.
 
 </br>
 
-#### **5. Selecionando linhas e colunas:**
+**5. Selecionando linhas e colunas:**
+
 Usando os mesmos atalhos da dica 4 juntamente com a tecla ``shift``, é possível selecionar várias linhas e várias colunas.
 
 Ex.: para selecionar uma linha inteira (a partir da célula em que você está), pressione ``ctrl`` + ``shift`` + ``seta para cima`` ou ``seta para baixo``. O mesmo vale para selecionar várias colunas. Use os mesmos atalhos combinados com as setas para os lados.
@@ -249,7 +333,8 @@ Se a intenção é selecionar toda a sua planilha, pressione ``ctrl`` + ``*``. N
 
 </br>
 
-#### **6. Aumentando a altura das linhas:**
+**6. Aumentando a altura das linhas:**
+
 Selecione todas as linhas. Lembra do nosso atalho para isso? Nesse caso, basta selecionar a primeira linha com o atalho ``shift`` + ``espaço`` e depois selecionar até a última linha com o atalho ``ctrl`` + ``shift`` + ``seta para baixo``.
 
 Caso ache mais fácil, selecione tudo com o mouse ou marque a primeira linha e pressione ``shift`` + ``seta para baixo`` até chegar na linha desejada.
@@ -257,7 +342,8 @@ Depois, vá com o cursor até a linha entre os números das linhas. O cursor vai
 
 </br>
 
-#### **7. Preenchendo as células automaticamente:**
+**7. Preenchendo as células automaticamente:**
+
 Se você precisa enumerar algumas células do número 1 ao 100, por exemplo, você já sabe que pode inserir o número 1 em uma célula, o número 2 na célula seguinte, selecionar as duas, clicar com o mouse no canto inferior direito da célula de baixo e puxar para baixo, certo? Com isso, as próximas células serão preenchidas automaticamente até o número que você deseja.
 
 Porém, se você colocar o indicador ordinal, assim: 1º, 2º, 3º etc. esse atalho não funciona mais, pois o tipo da célula muda.
@@ -269,7 +355,8 @@ Ah, e caso você queira adicionar mais números, agora é só selecionar e puxar
 
 </br>
 
-#### **8. Tabela zebrada:**
+**8. Tabela zebrada:**
+
 Primeiro selecione a sua tabela (``ctrl`` + ``*``), depois clique em ``formatação condicional`` e em ``nova regra``. Escolha a última opção da lista (``Usar uma fórmula para determinar quais células devem ser formatadas``). 
 
 Agora clique na caixa de texto logo abaixo e digite: ``=MOD(LIN();2)=0``.
@@ -278,9 +365,41 @@ O próximo passo é clicar em ``formatar`` ainda nesta janela. Com isso, uma nov
 
 </br>
 
-#### **Erros comuns no Excel**
+### **Erros comuns**
+</br>
 
+**1. #VALOR!**
 
+Esse é um dos erros mais comuns e acontece devido a um erro de sintaxe ou de referência às células. Por exemplo, esse erro irá ocorrer se você tentar somar dois valores escrevendo “=A1-B1” em uma célula. Para resolvê-lo, basta utilizar corretamente a função SOMA.
+</br>
+</br>
+**2. #REF!**
 
+O erro #REF! acontece quando um valor antes referenciado para a utilização em uma fórmula ou função acaba sendo excluído ou suprimido de alguma forma. Para arrumar, procure o local de referência e veja quais dados estão faltando. 
+</br>
+</br>
+**3. #NUM!**
 
+O erro #NUM! acontece quando uma célula contém valores inválidos. Números grandes demais para serem calculados pelo Excel ou impossibilidades matemáticas como raízes de números negativos são exemplos do que pode dar errado nesses momentos.
+</br>
+</br>
+**4. #NOME?**
 
+O erro #NOME? acontece quando há algo digitado de forma errada, como escrever “=SOM” ao invés de “=SOMA”, por exemplo. Uma confusão comum entre os usuários do Excel é acabar utilizando o nome das fórmulas em outros idiomas como o inglês. Escrever “=SUM” em um programa configurado em inglês funcionará perfeitamente, mas não em um configurado para funcionar em português. Fique de olho!
+</br>
+</br>
+**5. #N/D**
+
+O erro #N/D acontece nas funções PROCV, PROCH, PROC e CORRESP quando elas não conseguem achar determinados valores. Verifique a fonte dos dados e veja se o item relacionado possui um valor válido.
+</br>
+</br>
+**6. #DIV/0!**
+
+O erro #DIV/0! acontece quando tentamos dividir um valor por zero ou uma célula é dividida por outra vazia. Para resolver, é só alterar o valor para algo diferente de zero, alterar a referência para uma célula que não esteja vazia ou inserir o indicador #N/D para indicar a indisponibilidade do cálculo. 
+</br>
+</br>
+**7. #####**
+
+O erro ##### também é muito comum e ocorre quando a coluna não é larga o suficiente para exibir o valor por inteiro. Para resolver, basta aumentar o tamanho até o número aparecer. 
+
+A fonte consultada pode ser vista <a href="https://www.sos.com.br/noticias/excel/os-principais-erros-no-excel-saiba-como-resolve-los" target="_blank">aqui</a>.
