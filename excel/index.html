@@ -113,11 +113,15 @@ Então vamos lá!</p>
 <p></br></p>
 <h4 id="1-procv-e-proch"><strong>1. PROCV e PROCH</strong></h4>
 <p>Suponha que você tenha uma lista de números de localização do Office e precisa saber quais funcionários estão em cada escritório. A planilha é grande, portanto, você pode pensar que é uma tarefa desafiadora. Na verdade, é muito fácil fazer com uma função proc.</p>
-<p>Aqui está um exemplo de como usar PROCV.</p>
-<p><code>=PROCV(B2,C2:E7,3,VERDADEIRO)</code> </p>
-<p>Neste exemplo, B2 é o primeiro argumento, que é o valor que você deseja encontrar. Esse argumento pode ser uma referência de célula ou um valor fixo, como "Smith" ou 21.000. O segundo argumento é o intervalo de células, <code>C2:E7</code>, no qual pesquisar o valor que você deseja encontrar. O terceiro argumento é a coluna nesse intervalo de células que contém o valor que você busca.</p>
-<p>O quarto argumento é opcional. Insira verdadeiro ou falso. Se você inserir <code>verdadeiro</code> ou deixar o argumento em branco, a função retornará uma correspondência aproximada do valor especificado no primeiro argumento. Se você inserir <code>falso</code>, a função corresponderá ao valor fornecido pelo primeiro argumento. Em outras palavras, deixar o quarto argumento em branco — ou inserir verdadeiro — oferece mais flexibilidade.</p>
-<p>Vamos para um exemplo.</p>
+<p>Aqui está um exemplo de como usar PROCV:</p>
+<p><code>=PROCV(B2,C2:E7,3,VERDADEIRO)</code>
+</br>
+</br>
+- neste exemplo, <code>B2</code> é o primeiro argumento, que é o valor que você deseja encontrar. Esse argumento pode ser uma referência de célula ou um valor fixo, como "Smith" ou 21.000. </br>
+- o segundo argumento é o intervalo de células, <code>C2:E7</code>, no qual pesquisar o valor que você deseja encontrar.
+- o terceiro argumento é a coluna nesse intervalo de células que contém o valor que você busca. </br>
+- por fim, o quarto argumento é opcional. Insira verdadeiro ou falso. Se você inserir <code>verdadeiro</code> ou deixar o argumento em branco, a função retornará uma correspondência aproximada do valor especificado no primeiro argumento. Se você inserir <code>falso</code>, a função corresponderá ao valor fornecido pelo primeiro argumento. Em outras palavras, deixar o quarto argumento em branco — ou inserir verdadeiro — oferece mais flexibilidade.</p>
+<p>Aqui está um exemplo prático:</p>
 <p><img alt="exemplo_procv" src="../img/excel/procv.jpg" /></p>
 <p>Vamos então para um exemplo de PROCH.</p>
 <p>Bom, a função PROCH localiza um valor na linha superior de uma tabela ou matriz de valores e retorna um valor na mesma coluna de uma linha especificada na tabela ou matriz. Você deve usar PROCH quando seus valores de comparação estiverem localizados em uma linha ao longo da parte superior de uma tabela de dados e você quiser observar um número específico de linhas mais abaixo. Quando os valores de comparação estiverem em uma coluna à esquerda dos dados que você deseja localizar, use <code>PROCV</code>.</p>
@@ -126,8 +130,8 @@ Então vamos lá!</p>
 <p>A função índice é usada para retornar um valor ou a referência a um valor de dentro de uma tabela ou intervalo. Esta função possui duas formas: a matricial e a referencial. Veremos cada uma delas a seguir.</p>
 <p></br></p>
 <p><strong>2.1 Matricial</strong></p>
-<p>A forma matricial da função índice retorna o valor de um elemento em uma tabela ou uma matriz, selecionado pelos índices de número de linha e coluna (nesta ordem: primeiro a linha e depois a coluna).
-A fórmula possui dois argumentos obrigatórios e um opcional: </br>
+<p>A forma matricial da função índice retorna o valor de um elemento em uma tabela ou uma matriz, selecionado pelos índices de número de linha e coluna (nesta ordem: primeiro a linha e depois a coluna).</p>
+<p>A fórmula possui dois argumentos obrigatórios e um opcional:
 - o primeiro argumento é o intervalo de células da constante ou matriz; </br>
 - o segundo é o número da linha (se ficar em branco, o número da coluna deve ser preenchido); </br>
 - o terceiro (opcional) é o número da coluna.</p>
@@ -140,17 +144,17 @@ Veja um exemplo a seguir.</p>
 <p>Esta versão da função índice permite que você selecione mais de uma área (ou seja, pode ser usada também com mais de uma tabela).</p>
 <p>A fórmula é composta por dois argumentos obrigatórios: </br>
 - uma referência a um ou mais intervalos de célula; </br>
-- o número da linha de onde será fornecidade uma referência; </br>
-O número da coluna e da área são opcionais.</p>
+- o número da linha de onde será fornecidade uma referência;</p>
+<p>O número da coluna e da área são opcionais.</p>
 <p><img alt="exemplo_indice_referencial" src="../img/excel/indice_referencial.jpg" /></p>
 <p></br></p>
 <h4 id="3-funcao-corresp"><strong>3. Função Corresp</strong></h4>
 <p>A função Corresp procura um item especificado em um intervalo de células e retorna a posição relativa desse item no intervalo. Por exemplo, se o intervalo <code>A1:A3</code> contiver os valores 5, 25 e 38, a fórmula <code>=CORRESP(25,A1:A3,0)</code> retornará o número 2, porque 25 é o segundo item no intervalo.</p>
-<p>Dica: Use Corresp no lugar de uma das funções PROC quando você precisar da posição de um item em um intervalo em vez do item propriamente dito. Por exemplo, você pode usar a função CORRESP para fornecer um valor para o argumento núm_lin da função ÍNDICE.</p>
+<p>Dica: use Corresp no lugar de uma das funções PROC quando você precisar da posição de um item em um intervalo em vez do item propriamente dito. Por exemplo, você pode usar a função Corresp para fornecer um valor para o argumento núm_lin da função Índice.</p>
 <p>A sintaxe é composta por dois argumentos obrigatórios e um argumento opcional: </br>
 - o primeiro argumento é o valor procurado por você, que pode ser um número, texto ou valor lógico. </br>
 - o segundo item é a matriz procurada, ou seja, o intervalo de células a serem pesquisadas. </br>
-- o terceiro item (opcional) é o tipo de correspondência, que especifica como o excel faz a correspondência do valor procurado. O valor padrão para este argumento é 1.</p>
+- o terceiro item (opcional) é o tipo de correspondência, que especifica como o excel faz a correspondência do valor procurado; o valor padrão para este argumento é 1.</p>
 <p>Segue um exemplo:</p>
 <p><img alt="exemplo_corresp" src="../img/excel/corresp.jpg" /></p>
 <table>
@@ -163,7 +167,7 @@ O número da coluna e da área são opcionais.</p>
 <tbody>
 <tr>
 <td>1 ou não especificado</td>
-<td>CORRESP localiza o maior valor que é menor do que ou igual a valor procurado. Os valores no argumento matriz procurada devem ser colocados em ordem crescente; por exemplo: ...-2, -1, 0, 1, 2, ..., A-Z, FALSO, VERDADEIRO.</td>
+<td>CORRESP localiza o maior valor que é menor do que ou igual a valor procurado. Os valores no argumento matriz procurada devem ser colocados em ordem crescente; por exemplo: . . . -2, -1, 0, 1, 2, . . ., A-Z, FALSO, VERDADEIRO.</td>
 </tr>
 <tr>
 <td>0</td>
@@ -171,30 +175,33 @@ O número da coluna e da área são opcionais.</p>
 </tr>
 <tr>
 <td>-1</td>
-<td>CORRESP localiza o menor valor que é maior ou igual ao valor procurado. Os valores no argumento matriz_procurada devem ser colocados em ordem decrescente como, por exemplo: VERDADEIRO, FALSO, Z-A... 2, 1, 0, -1, -2... e assim por diante.</td>
+<td>CORRESP localiza o menor valor que é maior ou igual ao valor procurado. Os valores no argumento matriz_procurada devem ser colocados em ordem decrescente como, por exemplo: VERDADEIRO, FALSO, Z-A . . . 2, 1, 0, -1, -2 . . . e assim por diante.</td>
 </tr>
 </tbody>
 </table>
 <p></br></p>
 <h4 id="4-combinando-as-funcoes-indice-e-corresp"><strong>4. Combinando as funções Índice e Corresp</strong></h4>
 <p>Como vimos anteriormente, os argumentos da função índice representam a posição de um dado em células organizadas em uma mesma linha, ou em uma mesma coluna, ou seja, justamente o que a função Corresp faz. Assim podemos incluir o Corresp nestes argumentos da função índice.</p>
-<p>A tabela abaixo contém alguns dados sobre a população dos países membros do BRICS e queremos descobrir qual dos países tem o percentual de população feminina igual a 48,29%.</p>
+<p>A tabela abaixo contém alguns dados sobre a população dos países membros dos BRICS e queremos descobrir qual dos países tem o percentual de população feminina igual a 48,29%.</p>
 <p><img alt="exemplo_indice_corresp" src="../img/excel/indice_corresp.jpg" /></p>
-<p>matriz → B6:B10 = área onde estão os dados com os nomes dos países. </br>
-núm_linha → função CORRESP </br>
-valor_procurado → C2 = célula onde está o valor do indicador que queremos a informação. </br>
-matriz_procurada → F6:F10 = intervalo onde estão os dados do indicador desejado. </br>
-[tipo_correspondência] → 0 (zero), pois é o valor que indica a função que queremos uma correspondência exata. </br>
-[núm_coluna] → Não aparece na função. Se trata de um dado opcional e desnecessário neste caso, já que a área que selecionamos em matriz possui somente uma coluna. Deixar esse argumento em branco ou com o valor 1, dá na mesma.</p>
+<p>Elementos da fórmula: </br>
+- matriz → B6:B10 = área onde estão os dados com os nomes dos países. </br>
+- núm_linha → função CORRESP </br>
+- valor_procurado → C2 = célula onde está o valor do indicador que queremos a informação. </br>
+- matriz_procurada → F6:F10 = intervalo onde estão os dados do indicador desejado. </br>
+- [tipo_correspondência] → 0 (zero), pois é o valor que indica a função que queremos uma correspondência exata. </br>
+- [núm_coluna] → não aparece na função. Se trata de um dado opcional e desnecessário neste caso, já que a área que selecionamos em matriz possui somente uma coluna. Deixar esse argumento em branco ou com o valor 1, dá na mesma.</p>
 <p>Então, resumindo, o que dissemos para esta fórmula fazer foi: </br>
-No intervalo de B6:B10, retorne o dado que estiver na mesma posição que o valor 48,29% está no intervalo de F6:F10. Ou seja, retorne o dado que estiver na 3ª posição no intervalo de B6:B10.</p>
+No intervalo B6:B10, retorne o dado que estiver na mesma posição que o valor 48,29% está no intervalo de F6:F10. Ou seja, retorne o dado que estiver na 3ª posição no intervalo de B6:B10.</p>
 <p>O resultado dessa fórmula é Índia, pois é o país com 48,29% de população feminina.</p>
 <p>Fonte da questão <a href="https://www.funcaoexcel.com.br/indice-corresp-um-procv-melhorado/" target="_blank">aqui</a>.</p>
 <p></br></p>
 <h4 id="5-funcao-somase"><strong>5. Função Somase</strong></h4>
 <p>A função somase é utilizada para somar os valores em um intervalo que atendem aos critérios estabelecidos.
-Por exemplo, imagine que em uma coluna você precisa somar apenas os valores maiores do que 100. Você pode fazer isso usando a fórmula <code>=SOMASE(C2:C11;"&gt;100")</code>. Note que o primeiro argumento da fórmula simplesmente define o intervalo escolhido e o segundo argumento define a condição estabelecida por você.
-A seguir temos um exemplo de como usar essa função:</p>
+Por exemplo, imagine que em uma coluna você precisa somar apenas os valores maiores do que 100. Você pode fazer isso usando a seguinte fórmula:</p>
+<p><code>=SOMASE(C2:C11;"&gt;100")</code></p>
+<p>Note que o primeiro argumento da fórmula simplesmente define o intervalo escolhido e o segundo argumento define a condição estabelecida por você.</p>
+<p>A seguir temos um exemplo de como usar essa função:</p>
 <p><img alt="exemplo_somase" src="../img/excel/somase.jpg" /></p>
 <p>Outro exemplo: </p>
 <p><img alt="exemplo_somase2" src="../img/excel/somase2.jpg" /></p>
@@ -207,44 +214,54 @@ Por exemplo, <code>CONT.SE(A2:A5;"maçãs")</code>. Este e outros exemplos podem
 <p><img alt="exemplo_contse" src="../img/excel/contse.jpg" /></p>
 <p></br></p>
 <h4 id="7-funcao-contses"><strong>7. Função Cont.ses</strong></h4>
-<p>A função cont.ses aplica critérios a células em vários intervalos e conta o número de vezes que todos os critérios são atendidos.
-A sintaxe da função tem dois argumentos obrigatórios: </br>
-- O primeiro argumento é o intervalo no qual iremos avaliar os critérios estabelecidos. </br>
-- O segundo argumento trata dos critérios que devem ser avaliados. </br>
-Além disso, podem ser adicionados outros critérios, sendo permitidos até 127 critérios ou intervalos.
-Seguem um exemplo:</p>
+<p>A função cont.ses aplica critérios a células em vários intervalos e conta o número de vezes que todos os critérios são atendidos.</p>
+<p>A sintaxe da função tem dois argumentos obrigatórios: </br>
+- o primeiro argumento é o intervalo no qual iremos avaliar os critérios estabelecidos. </br>
+- o segundo argumento trata dos critérios que devem ser avaliados.</p>
+<p>Além disso, podem ser adicionados outros critérios, sendo permitidos até 127 critérios ou intervalos.</p>
+<p>Segue um exemplo:</p>
 <p><img alt="exemplo_contses" src="../img/excel/contses.jpg" /></p>
 <p>Outro exemplo:</p>
 <p><img alt="exemplo_contses2" src="../img/excel/contses2.jpg" /></p>
-<p>Observação: Se você pretende fazer a contagem usando um único critério, use a função <code>cont.se</code>, já abordada anteriormente.</p>
+<p>Observação: se você pretende fazer a contagem usando um único critério, use a função <code>cont.se</code>, já abordada anteriormente.</p>
 <p></br></p>
 <h4 id="8-graficos"><strong>8. Gráficos</strong></h4>
+<p>Criar gráficos no Excel é muito simples. Você precisa selecionar o seu conjunto de dados e escolher o tipo de gráfico que você quer fazer. Segue o passo a passo:</p>
+<p>Passo 1: selecione o conjunto de dados. </br>
+Passo 2: vá na aba Inserir.</br>
+Passo 3: escolha o tipo de gráfico que você quer (lembrando que cada tipo de gráfico faz sentido para uma função diferente).</p>
+<p>Exemplo de um gráfico simples de dispersão:</p>
+<p><img alt="exemplo_grafico_dispersao" src="../img/excel/grafico_dispersao.png" /></p>
 <p></br></p>
 <h4 id="9-tabela-dinamica"><strong>9. Tabela Dinâmica</strong></h4>
 <p>Uma Tabela Dinâmica é uma ferramenta poderosa para calcular, resumir e analisar os dados que lhe permitem ver comparações, padrões e tendências nos dados.</p>
-<p>O primeiro passo para criar uma Tabela Dinâmica é selecionar os dados a partir dos quais você quer criar a tabela. Os dados selecionados não podem ter colunas ou linhas vazias e deve haver uma linha única para os títulos. </br>
-Depois de selecionados os dados, clique em <code>inserir</code> &gt; <code>tabela dinâmica</code>. </br>
-Em <code>Tabela/Intervalo</code>, verifique o intervalo de células. </br>
-Em <code>Escolha onde deseja que o relatório da Tabela Dinâmica seja posicionado</code>, selecione Nova Planilha para posicionar a Tabela Dinâmica em uma nova planilha, ou escolha Planilha Existente e selecione o local em que deseja exibir a Tabela Dinâmica. </br>
-Selecione <code>ok</code>. </br>
-Depois disso, no lado direito de sua tela, selecione os dados que você quer inserir na tabela e observe como ela foi criada automaticamente. Se necessário, mude os itens nos campos disponíveis no canto inferior direito de forma que a tabela faça mais sentido/seja mais fácil de interpretar.</p>
+<p>Passo 1 : o primeiro para criar uma Tabela Dinâmica é selecionar os dados a partir dos quais você quer criar a tabela. Os dados selecionados não podem ter colunas ou linhas vazias e deve haver uma linha única para os títulos. </br>
+Passo 2: depois de selecionados os dados, clique em <code>inserir</code> -&gt; <code>tabela dinâmica</code>. </br>
+Passo 3: em <code>Tabela/Intervalo</code>, verifique o intervalo de células. </br>
+Passo 4: em <code>Escolha onde deseja que o relatório da Tabela Dinâmica seja posicionado</code>, selecione <code>Nova Planilha</code> para posicionar a Tabela Dinâmica em uma nova planilha, ou escolha <code>Planilha Existente</code> e selecione o local em que deseja exibir a Tabela Dinâmica. </br>
+Passo 5: selecione <code>ok</code>. </br>
+Passo 6: depois disso, no lado direito de sua tela, selecione os dados que você quer inserir na tabela e observe como ela foi criada automaticamente. Se necessário, mude os itens nos campos disponíveis no canto inferior direito de forma que a tabela faça mais sentido/seja mais fácil de interpretar.</p>
 <p>A seguir está um exemplo (à esquerda estão os dados sem nenhuma formatação ou edição e à direita está a tabela dinâmica):</p>
 <p><img alt="exemplo_tab_dinam" src="../img/excel/tabela_dinamica.jpg" /></p>
 <p></br></p>
 <h4 id="10-grafico-dinamico"><strong>10. Gráfico Dinâmico</strong></h4>
 <p>Os Gráficos Dinâmicos são uma ótima maneira de adicionar visualizações aos dados, já que os dados em formato de gráfico geralmente são muito mais intuitivos do que os mesmos em tabelas. </br>
-Para adicionar um gráfico dinâmico, os passos são basicamente os mesmos da tabela dinâmica. </br>
-Primeiro selecione os dados, depois clique em <code>inserir</code> &gt; <code>gráfico dinâmico</code>.</p>
-<p>Em <code>Tabela/Intervalo</code>, verifique o intervalo de células. </br>
-Em <code>Escolha o local no qual deseja que a tabela e o gráfico dinâmicos sejam colocados</code>, selecione Nova Planilha para posicioná-los em uma nova planilha, ou escolha Planilha Existente e selecione o local em que deseja exibi-los. </br>
-Selecione <code>ok</code>. </br></p>
+Para adicionar um gráfico dinâmico, os passos são basicamente os mesmos da tabela dinâmica: </br>
+Passo 1: selecione os dados, depois clique em <code>inserir</code> &gt; <code>gráfico dinâmico</code>. </br>
+Passo 2: em <code>Tabela/Intervalo</code>, verifique o intervalo de células. </br>
+Passo 3: em <code>Escolha o local no qual deseja que a tabela e o gráfico dinâmicos sejam colocados</code>, selecione <code>Nova Planilha</code> para posicioná-los em uma nova planilha, ou escolha <code>Planilha Existente</code> e selecione o local em que deseja exibi-los. </br>
+Passo 4: selecione <code>ok</code>. </br></p>
 <p>Depois disso, no lado direito de sua tela, selecione os dados que você quer inserir no gráfico e mude os itens nos campos disponíveis no canto inferior direito de forma que seu gráfico faça mais sentido/seja mais fácil de interpretar.</p>
 <p>A seguir está um exemplo de gráfico dinâmico juntamente com a tabela que deu origem ao mesmo.</p>
 <p><img alt="exemplo_graf_dinam" src="../img/excel/grafico_dinamico.jpg" /></p>
 <p></br></p>
 <h4 id="11-dashboard"><strong>11. Dashboard</strong></h4>
 <p>Um dashboard é uma representação visual de métricas de chave que lhe permitem rapidamente ver e analisar os seus dados num único local. Dashboards apenas não fornecem vistas de dados consolidados, mas os utilizadores irão conseguir filtrar os dados para apresentar apenas o que é importante.</p>
-<p>Neste tópico, vamos abordar como utilizar ferramentas de várias tabelas dinâmicas, gráficos dinâmicos e tabela dinâmica para criar um dashboard dinâmico.</p>
+<p>Para criar um dashboard dinâmico siga os seguintes passos:</p>
+<p>Passo 1: crie duas abas no Excel. </br>
+Passo 2: transforme as tabelas comuns em tabelas dinâmicas. </br>
+Passo 3: crie um gráfico dinâmico. </br>
+Passo 4: personalize o seu dashboard formatando-o.</p>
 <p></br></p>
 <h4 id="12-guia-desenvolvedor"><strong>12. Guia Desenvolvedor</strong></h4>
 <p>A guia Desenvolvedor não é habilitada por padrão. É interessante habilitá-la, pois ela permite que tenhamos acesso a comandos mais avançados como Macros, botões e acesso ao VBE (Visual Basic Editor).</p>
@@ -265,10 +282,10 @@ Passo 6: aperte <code>ok</code>.</p>
 <p>Passo 7: clique em <code>parar gravação</code>.
 Agora teste o resultado: apague o conteúdo da célula e digite <code>Ctrl</code>+ <code>Shift</code> + <code>c</code>.</p>
 <p></br></p>
-<p><strong>Referências absolutas</strong>:</p>
+<p><strong>13.1 Referências absolutas</strong>:</p>
 <p>Gravar em referências absolutas significa dizer que será representado no Visual Basic a referência exata da sua execução. Ou seja, se você está gravando a macro, selecionou a célula A6 e pediu para preencher o fundo da célula de vermelho, quando solicitar para executar a macro, ela será executada exatamente na célula A6.</p>
 <p></br></p>
-<p><strong>Referências relativas</strong>:</p>
+<p><strong>13.2 Referências relativas</strong>:</p>
 <p>Macros com referências relativas são gravadas começando na célula que está selecionada. Por exemplo: se marcamos a opção “utilizar referências relativas” para gravar uma macro, a célula selecionada será a referência inicial. Isto é, a sua função não será executada apenas na célula onde você a gravou, mas sim em qualquer célula que você selecionar.</p>
 <p>Para usar esta função, você deve ativar a opção <code>usar referências relativas</code> logo abaixo da opção <code>gravar macro</code>.</p>
 <p>Uma macro pode ser editada no Editor do Visual Basic.</p>
@@ -276,11 +293,11 @@ Agora teste o resultado: apague o conteúdo da célula e digite <code>Ctrl</code
 <p></br></p>
 <p><strong>a) Botões para Macros</strong> </p>
 <p>Uma macro pode ser executada também a partir de uma figura, de um texto em WordArt ou um botão. Para adicionar uma macro em um botão siga as instruções: </p>
-<p>Passo 1: Na guia <code>Desenvolvedor</code>, selecione <code>Inserir</code> e`clique na primeira opção (<code>botão</code>).
-Passo 2: Desenhe o botão em alguma área de sua planilha.
-Passo 3: Atribua uma macro ao botão.
-Passo 4: Aperte Ok. Pronto! A partir de agora, toda vez que você clicar no botão a macro será executada.
-Para editar o nome no botão, clique com o botão direito e selecione Editar Texto.</p>
+<p>Passo 1: Na guia <code>Desenvolvedor</code>, selecione <code>Inserir</code> e`clique na primeira opção (<code>botão</code>).</br>
+Passo 2: Desenhe o botão em alguma área de sua planilha.</br>
+Passo 3: Atribua uma macro ao botão.</br>
+Passo 4: Aperte Ok. Pronto! A partir de agora, toda vez que você clicar no botão a macro será executada.</br>
+Para editar o nome no botão, clique com o botão direito e selecione Editar Texto.</br></p>
 <p></br></p>
 <p><strong>b) Habilitar Macros</strong> </p>
 <p>Na guia <code>Arquivo</code>, <code>Opções</code>, é possível habilitar as macros com restrições ou não. Acesse a opção <code>Central de Confiabilidade</code>. Clique em <code>Configurações de Central de Confiabilidade</code> e <code>Configurações de Macro</code>..</p>
@@ -288,16 +305,16 @@ Para editar o nome no botão, clique com o botão direito e selecione Editar Tex
 <p></br></p>
 <p><strong>c) Salvar pasta de trabalho</strong></p>
 <p>Para salvar uma pasta de trabalho com a possibilidade de executar as macros do arquivo, é necessário salvar como pasta habilitada para macros. Assim, ela ficará com a extensão de arquivo .xlsm </p>
-<p>Passo 1: Na guia Arquivo, selecione a opção Salvar como.
-Passo 2: Marque o tipo, Pasta de Trabalho Habilitada para Macro do Excel.
-Passo 3: Aperte OK!</p>
+<p>Passo 1: Na guia <code>Arquivo</code>, selecione a opção <code>Salvar como</code>.</br>
+Passo 2: Marque o tipo, Pasta de Trabalho Habilitada para Macro do Excel.</br>
+Passo 3: Aperte ok.</p>
 <p>Agora todas as macros que foram gravadas ou programadas no VB estarão disponíveis para posterior utilização. </p>
 <p></br></p>
 <p><strong>d) Criando uma Macro no VBE</strong></p>
-<p>Passo 1: Abra o Visual Basic (Alt+F11) ou pela guia Desenvolvedor.
-Passo 2: No menu Inserir, do VB, insira um novo Módulo.
-Passo 3: Copie do arquivo Macros.txt.
-Passo 4: Cole no Módulo que você inseriu.
+<p>Passo 1: Abra o Visual Basic (Alt+F11) ou pela guia Desenvolvedor.</br>
+Passo 2: No menu Inserir, do VB, insira um novo Módulo.</br>
+Passo 3: Copie do arquivo Macros.txt.</br>
+Passo 4: Cole no Módulo que você inseriu.</br>
 Passo 5: Feche o VB. </p>
 <p></br></p>
 <h3 id="atalhos"><strong>Atalhos</strong></h3>
@@ -351,7 +368,7 @@ Qual a solução então? Terei que digitar tudo até o 100 ou até o 500, 700, d
 </br>
 </br>
 <strong>2. #REF!</strong></p>
-<p>O erro #REF! acontece quando um valor antes referenciado para a utilização em uma fórmula ou função acaba sendo excluído ou suprimido de alguma forma. Para arrumar, procure o local de referência e veja quais dados estão faltando. 
+<p>Esse erro acontece quando um valor referenciado anteriormente para a utilização em uma fórmula ou função acaba sendo excluído ou suprimido de alguma maneira. Para resolver o problema, procure o local de referência e veja quais dados estão faltando. 
 </br>
 </br>
 <strong>3. #NUM!</strong></p>
@@ -359,11 +376,11 @@ Qual a solução então? Terei que digitar tudo até o 100 ou até o 500, 700, d
 </br>
 </br>
 <strong>4. #NOME?</strong></p>
-<p>O erro #NOME? acontece quando há algo digitado de forma errada, como escrever “=SOM” ao invés de “=SOMA”, por exemplo. Uma confusão comum entre os usuários do Excel é acabar utilizando o nome das fórmulas em outros idiomas como o inglês. Escrever “=SUM” em um programa configurado em inglês funcionará perfeitamente, mas não em um configurado para funcionar em português. Fique de olho!
+<p>O erro #NOME? acontece quando há algo digitado de forma errada, como escrever “=SOM” ao invés de “=SOMA”, por exemplo. Uma confusão comum entre os usuários do Excel é acabar utilizando o nome das fórmulas em outros idiomas como o inglês. Escrever “=SUM” em um programa configurado em inglês funcionará perfeitamente, mas não em um configurado para funcionar em português.
 </br>
 </br>
 <strong>5. #N/D</strong></p>
-<p>O erro #N/D acontece nas funções PROCV, PROCH, PROC e CORRESP quando elas não conseguem achar determinados valores. Verifique a fonte dos dados e veja se o item relacionado possui um valor válido.
+<p>Esse erro acontece nas funções Procv, Proch, Proc e Corresp quando elas não conseguem achar determinados valores. Verifique a fonte dos dados e veja se o item relacionado possui um valor válido.
 </br>
 </br>
 <strong>6. #DIV/0!</strong></p>
@@ -371,7 +388,7 @@ Qual a solução então? Terei que digitar tudo até o 100 ou até o 500, 700, d
 </br>
 </br>
 <strong>7. #####</strong></p>
-<p>O erro ##### também é muito comum e ocorre quando a coluna não é larga o suficiente para exibir o valor por inteiro. Para resolver, basta aumentar o tamanho até o número aparecer. </p>
+<p>Esse erro também é muito comum e ocorre quando a coluna não é larga o suficiente para exibir o valor por inteiro. Para resolver, basta aumentar o tamanho até o número aparecer. </p>
 <p>A fonte consultada pode ser vista <a href="https://www.sos.com.br/noticias/excel/os-principais-erros-no-excel-saiba-como-resolve-los" target="_blank">aqui</a>.</p></div>
         </div>
 
