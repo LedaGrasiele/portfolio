@@ -4,7 +4,7 @@ Nesta seção de análises de dados incluirei alguns exemplos de análises com d
 
 **Analisando a relação entre escolaridade e rendimentos**
 
-O exemplo a seguir é de uma análise utilizando dados da Pesquisa Nacional por Amostra de Domicílios (PNAD). Esta análise foi feita para o primeiro artigo da minha dissertação de mestrado. 
+O exemplo a seguir é de uma análise utilizando dados da Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD-C) referentes ao segundo trimestre de 2017. Esta análise foi feita para o primeiro artigo da minha dissertação de mestrado. 
 </br>
 </br>
 O endereço onde eu busco os dados é uma pasta do meu computador. Mas caso você tenha interesse em replicar os comandos, o conjunto de dados está disponível <a href="https://drive.google.com/open?id=1atn4LziiMeKyUdfD2uYMEzfljpL3rqRu" target="_blank">aqui.</a>
@@ -507,6 +507,8 @@ A interpretação de cada um dos parâmetros pode ser vista com detalhes na <a h
 </br>
 
 ### Análise exploratória (dados da PNS)
+
+Esta análise foi feita no segundo artigo da dissertação. A base de dados utilizada foi a Pesquisa Nacional de Saúde (PNS), referente ao ano de 2013.
 
 </br>
 

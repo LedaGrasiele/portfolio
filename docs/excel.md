@@ -96,10 +96,10 @@ A tabela abaixo contém alguns dados sobre a população dos países membros dos
 ![exemplo_indice_corresp](img/excel/indice_corresp.jpg)
 
 Elementos da fórmula: </br>
-- matriz → B6:B10 = área onde estão os dados com os nomes dos países. </br>
+- matriz → A2:A6 = área onde estão os dados com os nomes dos países. </br>
 - núm_linha → função CORRESP </br>
-- valor_procurado → C2 = célula onde está o valor do indicador que queremos a informação. </br>
-- matriz_procurada → F6:F10 = intervalo onde estão os dados do indicador desejado. </br>
+- valor_procurado → B8 = célula onde está o valor do indicador que queremos a informação. </br>
+- matriz_procurada → E2:E6 = intervalo onde estão os dados do indicador desejado. </br>
 - [tipo_correspondência] → 0 (zero), pois é o valor que indica a função que queremos uma correspondência exata. </br>
 - [núm_coluna] → não aparece na função. Se trata de um dado opcional e desnecessário neste caso, já que a área que selecionamos em matriz possui somente uma coluna. Deixar esse argumento em branco ou com o valor 1, dá na mesma.
 

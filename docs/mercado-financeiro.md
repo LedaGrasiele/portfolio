@@ -1,7 +1,7 @@
 Nesta seção serão disponibilizados os principais conceitos do mercado finaneiro, especialmente aqueles necessários para a certificação CPA-20. Para organizar o conteúdo, serão tomados como base os módulos da prova.
 </br>
 </br>
-A sigla CPA significa Certificação Profissional Anbima e ela é uma certificação básica para quem quer entrar no mercado financeiro e trabalhar com a distribuição de produtos de investimentos. Como foi dito, os conteúdos aqui estarão disponíveis na ordem dos módulos cobrados na prova e podem ser um bom resumo para os estudos (foi o resumo que eu fiz e utilizeu para estudar para a prova).
+A sigla CPA significa Certificação Profissional Anbima e ela é uma certificação básica para quem quer entrar no mercado financeiro e trabalhar com a distribuição de produtos de investimentos. Como foi dito, os conteúdos aqui estarão disponíveis na ordem dos módulos cobrados na prova e podem ser um bom resumo para os estudos (foi o resumo que eu fiz e utilizei para estudar para a prova).
 </br>
 </br>
 Caso você tenha interesse em trabalhar nesta área, saiba que há muito material gratuito disponível na internet. O professor Fábio Louzada disponibiliza diversas lives e questões sobre o assunto. O site e o aplicativo da TopInvest também têm muito conteúdo bacana. Além disso, você pode ir no youtube e pesquisar por "cpa-20 edgar abreu" que você vai encontrar diversas vídeo-aulas sobre cada um dos módulos cobrados na prova.
@@ -20,7 +20,7 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 * membros:
     1. ministro da Fazenda
     2. ministro do Planejamento
-    3. Presidente do BACEN
+    3. presidente do BACEN
 * funções: cria normas, regula, define meta de inflação.
 </br>
 </br>
@@ -192,9 +192,9 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 
 1. advertência.
 2. multa pecuniária variável não superior a:
-	a) ao dobro do valor da operação.
-	b) ao dobro do lucro real obtido pela operação.
-	c) ao valor de R$ 20 milhões (o que for menor).
+	* a) ao dobro do valor da operação.
+	* b) ao dobro do lucro real obtido pela operação.
+	* c) ao valor de R$ 20 milhões (o que for menor).
 3. inabilitação por até 10 anos para cargos administrativos.
 4. cassação ou suspensão da autorização para exercício da atividade.
 </br>
@@ -212,15 +212,15 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 
 * **risco legal**: relacionado à não execução de um contrato.
 * **risco de imagem**: relacionado à reputação da instituição.
-* **venda casada**: condicionar a venda de um produto à aquisição de outro (é diferentes de vantagens oferecidas a clientes).
+* **venda casada**: condicionar a venda de um produto à aquisição de outro (é diferente de vantagens oferecidas a clientes).
 * **insider trading**: uso de informações que ainda não se tornaram públicas (ex.: comprar ações porque sabe de uma futura fusão).
 * **front running**: uso de informações sobre operações no mercado que influenciarão nos preços (ex.: comprar ações antes do cliente).
-* Controles internos: segregação de funções (**chinese wall**).
-* Restrições do investidor: capacidade x vontade de correr risco (idade, horizonte de investimentos, conhecimento do produto, tolerância ao risco etc.).
-* Finanças pessoais:
+* controles internos: segregação de funções (**chinese wall**).
+* restrições do investidor: capacidade x vontade de correr risco (idade, horizonte de investimentos, conhecimento do produto, tolerância ao risco etc.).
+* finanças pessoais:
 	* balanço patrimonial pessoal: ativos e passivos.
 	* fluxo de caixa: receitas e despesas.
-	* orçamento doméstico: parecido com o segundo, mas com foco no futuro.
+	* orçamento doméstico: parecido com o fluxo de caixa, mas com foco no futuro.
 </br>
 </br>
 
@@ -228,15 +228,15 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 
 1. **informações básicas**:
 	* período que pretende manter o investimento.
-	* preferência quanto os riscos.
+	* preferência quanto aos riscos.
 	* finalidades do investimento.
 2. **situação financeira**:
 	* receitas regulares declaradas.
-	* valor e ativos do patrimônio.
+	* valores e ativos do patrimônio.
 	* necessidade futura de recursos.
 3. **conhecimento sobre o produto**:
 	* produtos, serviços e operações que tem familiaridade.
-	* informações sobre operações já realizadas no mercado (natureza, volume frequência, período etc.).
+	* informações sobre operações já realizadas no mercado (natureza, volume, frequência, período etc.).
 	* formação acadêmica e experiência profissional.
 4. **análise dos produtos**:
 	* riscos.
@@ -298,7 +298,7 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
 	2. IPC – índice de preços ao consumidor – 30%.
 	3. INCC – índice nacional da construção civil – 10%.
 * é usado para indexar contratos.
-* período de casa índice IGP-M:
+* período de cada índice IGP-M:
 	* dia 21 ao dia 20: IGP-M.
 	* dia 01 ao dia 20: IGP-DI.
 	* dia 11 ao dia 10: IGP-10.
@@ -351,7 +351,7 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
     1. **taxa SELIC**
 	    * contracionista: + juros -> - investimento e consumo -> - inflação.
 	    * expansionista: - juros -> - investimento e consumo -> + PIB e emprego (pode provocar aumento da inflação).
-    2. **taxa de redesconto** (taxa de juros do BACEN para empréstimos aos bancos):
+    2. **taxa de redesconto** (taxa de juros do BACEN para empréstimos aos bancos)
     	* contracionista: + taxa de redesconto -> - disponibilidade de crédito -> - investimento e consumo -> - inflação.
     	* expansionista: - taxa de redesconto -> + disponibilidade de crédito -> + investimento e consumo -> + PIB.
     3. **depósitos compulsórios** (parte dos recursos captados pelos bancos que devem ser depositados no BACEN)
@@ -362,11 +362,11 @@ Caso tenha interesse em fazer a prova, mais informações podem ser encontradas 
     	* contracionista: BACEN emite/vende títulos -> - moeda em circulação -> - inflação (e + juros).
     	* expansionista: BACEN resgata/compra títulos -> + moeda em circulação -> + PIB.
     	* obs.: ao emitir títulos, há dois principais motivos para o aumento da taxa de juros:
-            1. o aumento da dívida leva à perda de confiança, o que exige maiores juros.
-            2. com menos moeda, os bancos têm menos recursos para emprestar (o que os leva a cobrar mais caro por eles).
+            1. o aumento da dívida leva à perda de confiança, o que exige juros maiores.
+            2. com menos moeda, os bancos têm menos recursos para emprestar (o que os leva a cobrar mais caro pelo empréstimo).
         * outros dois problemas da política monetária com títulos públicos:
 	        1. efeito de expulsão: ao vender títulos, há um incentivo para maior investimento no Estado e menor investimento no mercado.
-	        2. déficit comercial: emissão de títulos atrai capital estrangeiro, que movimenta a taxa de câmbio, valorizando a moeda nacional, facilitando importações e dificultado exportações. 
+	        2. déficit comercial: a emissão de títulos atrai capital estrangeiro, que movimenta a taxa de câmbio, valorizando a moeda nacional, facilitando importações e dificultando exportações. 
 </br>
 </br>
 

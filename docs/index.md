@@ -1,9 +1,11 @@
 #### **Olá, seja bem vindo ao meu portfólio!**
 
 Me chamo Leda e sou economista e mestra em gestão pública pela Universidade Federal de Alfenas.
+Atualmente sou bolsista IEL/CNPq no banco Bradesco onde trabalho com Ciência de Dados.
 </br>
 </br>
-Deixarei disponíveis aqui algumas documentações e dicas de materiais de estudo, desde excel avançado a algumas dicas da linguagem Python e conteúdos sobre investimentos e mercado financeiro. Além disso, terá uma sessão dedicada à análise de dados, onde serão disponibilizados os modelos e as análises estatísticas realizadas na minha dissertação de mestrado.
+Deixarei disponíveis aqui algumas documentações e dicas de materiais de estudo, desde excel avançado a algumas dicas da linguagem Python e SQL, assim como conteúdos sobre investimentos e mercado financeiro (foco na certificação CPA-20).
+Além disso, há uma sessão dedicada à análise de dados, onde são disponibilizados os modelos e as análises estatísticas realizadas na minha dissertação de mestrado.
 </br>
 </br>
 Contato:
