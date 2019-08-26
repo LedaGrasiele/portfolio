@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Análise de dados - Leda</title>
+        <title>Dissertação - Leda</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -59,7 +59,10 @@
                                 <a href="../python/">Python</a>
                             </li>
                             <li class="active">
-                                <a href="./">Análise de dados</a>
+                                <a href="./">Dissertação</a>
+                            </li>
+                            <li >
+                                <a href="../sql/">SQL</a>
                             </li>
                         </ul>
 
@@ -74,8 +77,8 @@
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li class="disabled">
-                                <a rel="prev" >
+                            <li >
+                                <a rel="prev" href="../sql/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -98,7 +101,7 @@
 <p>Nesta seção de análises de dados incluirei alguns exemplos de análises com dados reais. </br></p>
 <h3 id="analise-exploratoria-dados-da-pnad"><strong>Análise exploratória (dados da PNAD)</strong></h3>
 <p><strong>Analisando a relação entre escolaridade e rendimentos</strong></p>
-<p>O exemplo a seguir é de uma análise utilizando dados da Pesquisa Nacional por Amostra de Domicílios (PNAD). Esta análise foi feita para o primeiro artigo da minha dissertação de mestrado. 
+<p>O exemplo a seguir é de uma análise utilizando dados da Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD-C) referentes ao segundo trimestre de 2017. Esta análise foi feita para o primeiro artigo da minha dissertação de mestrado. 
 </br>
 </br>
 O endereço onde eu busco os dados é uma pasta do meu computador. Mas caso você tenha interesse em replicar os comandos, o conjunto de dados está disponível <a href="https://drive.google.com/open?id=1atn4LziiMeKyUdfD2uYMEzfljpL3rqRu" target="_blank">aqui.</a></p>
@@ -677,6 +680,7 @@ Standard errors in parentheses.
 A interpretação de cada um dos parâmetros pode ser vista com detalhes na <a href="https://drive.google.com/open?id=1Kql_KAfEerWjGXX89nBWbgDGTVAI5YHd" target="_blank">dissertação.</a> </br></p>
 <p></br></p>
 <h3 id="analise-exploratoria-dados-da-pns">Análise exploratória (dados da PNS)</h3>
+<p>Esta análise foi feita no segundo artigo da dissertação. A base de dados utilizada foi a Pesquisa Nacional de Saúde (PNS), referente ao ano de 2013.</p>
 <p></br></p>
 <p>Carregando os pacotes:</p>
 <pre><code class="python">In [1]: %matplotlib inline

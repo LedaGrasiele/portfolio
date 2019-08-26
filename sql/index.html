@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>SQL - Leda</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Leda</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../excel/">Excel</a>
+                            </li>
+                            <li >
+                                <a href="../mercado-financeiro/">Mercado financeiro / CPA-20</a>
+                            </li>
+                            <li >
+                                <a href="../python/">Python</a>
+                            </li>
+                            <li >
+                                <a href="../dissertacao/">Dissertação</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">SQL</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../dissertacao/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#sql">SQL</a></li>
+        <li class="main "><a href="#banco-de-dados-relacional-versus-nao-relacional">Banco de dados relacional versus não relacional</a></li>
+        <li class="main "><a href="#principais-comandos-de-sql">Principais comandos de SQL:</a></li>
+            <li><a href="#1-select">1. Select</a></li>
+            <li><a href="#2-where">2. Where</a></li>
+            <li><a href="#3-like">3. Like</a></li>
+            <li><a href="#4-order-by">4. Order By</a></li>
+            <li><a href="#5-join">5. Join</a></li>
+            <li><a href="#6-union">6. Union</a></li>
+            <li><a href="#7-group-by">7. Group By</a></li>
+            <li><a href="#8-having">8. Having</a></li>
+            <li><a href="#9-funcoes-de-agrupamento">9. Funções de agrupamento</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h4 id="sql"><strong>SQL</strong></h4>
+<p><strong>Structured Query Language (SQL)</strong> ou Linguagem de Consulta Estruturada é uma linguagem de consulta utilizada por bancos de dados relacionais. Os comandos SQL permitem que haja uma interação com o banco de dados, executando diversas tarefas desde inserção até edição e exclusão de dados e tabelas.
+</br>
+</br></p>
+<h4 id="banco-de-dados-relacional-versus-nao-relacional"><strong>Banco de dados relacional versus não relacional</strong></h4>
+<p>A principal diferença entre banco de dados relacional e não relacional tem a ver com o modo como as informações são inseridas e organizadas.
+</br>
+</br>
+O banco de dados relacional oferece maior consistência e confiabilidade, mas exige o relacionamento entre várias tabelas para o acesso à informação. Já o não relacional tem como vantagem uma escalabilidade maior, com a informação agrupada e armazenada no mesmo registro.
+</br>
+</br>
+O <strong>banco de dados relacional</strong> utiliza tabelas para a sua organização. Com a ajuda da linguagem <strong>SQL</strong>, as informações são guardadas nas linhas e nas colunas. Porém, para que seja possível inserir coisas nas tabelas, é preciso projetar cada estrutura.
+</br>
+</br>
+Um <strong>banco de dados não relacional</strong> tem como diferencial a oferta de melhor performance e alta escalabilidade. Garante um gerenciamento mais eficiente, com linguagem <strong>NoSQL</strong>. Não exige a elaboração de um esquema antes de sua implementação, pois todas as informações ficam agrupadas em um único registro. Por isso, é necessário fazer cada um deles de modo que o banco consiga entender.
+</br>
+</br></p>
+<p>Nesta documentação estarão presentes os principais comandos da linguagem. Vale destacar que os comandos podem ter pequenas variações entre os vários Sistema de Gerenciamento de Banco de Dados (SGBDs) existentes como Oracle, PostgreSQL, SQLite, Microsoft SQL Server, MySQL etc.
+</br>
+</br></p>
+<h4 id="principais-comandos-de-sql"><strong>Principais comandos de SQL:</strong></h4>
+<p></br></p>
+<h5 id="1-select"><strong>1. Select</strong></h5>
+<p>A sintaxe é a seguinte:</p>
+<pre><code class="sql">SELECT &lt;lista_de_campos&gt;
+FROM &lt;nome_da_tabela&gt;&lt;nome_da_tabela&gt;&lt;lista_de_campos&gt;
+</code></pre>
+
+<p>Segue um exemplo:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+SELECT * FROM CLIENTES
+</code></pre>
+
+<p>Colocar o asterisco significa que queremos todos os campos.</p>
+<p></br></p>
+<h5 id="2-where"><strong>2. Where</strong></h5>
+<p>O comando Where permite que haja condições de filtragem. Exemplo:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+WHERE CODIGO = 10
+SELECT CODIGO, NOME FROM CLIENTES
+WHERE UF = ‘RJ’
+SELECT CODIGO, NOME FROM CLIENTES
+WHERE CODIGO &gt;= 100 AND CODIGO &lt;= 500
+SELECT CODIGO, NOME FROM CLIENTES
+WHERE UF = ‘MG’ OR UF = ‘SP’
+</code></pre>
+
+<p>Parênteses também podem ser usados, como no exemplo a seguir:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+WHERE UF = ‘RJ’ OR (UF = ‘SP’ AND ATIVO = ‘N’)
+</code></pre>
+
+<p>Nesse exemplo, todos os clientes do Rio de Janeiro e apenas os clientes inativos de São Paulo seriam capturados.</p>
+<p>Outro exemplo:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+WHERE (ENDERECO IS NULL) OR (CIDADE IS NULL)
+</code></pre>
+
+<p>Nesse caso, todos os clientes que não possuem endereço ou cidade cadastrada serão selecionados.</p>
+<p></br></p>
+<h5 id="3-like"><strong>3. Like</strong></h5>
+<p>Para busca parcial de string, o SELECT fornece o operador LIKE.</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+ WHERE NOME LIKE ‘MARIA%’
+</code></pre>
+
+<p>No comando acima, serão retornados todos os clientes cujos nomes iniciam com Maria. Se quisermos retornar os nomes que contenham ‘MARIA’ também no meio, podemos adicionar o símbolo "%" antes do nome MARIA. Veja a seguir:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+WHERE NOME LIKE ‘%MARIA%’
+</code></pre>
+
+<p>Outra dica é que por padrão, a SQl diferencia caixa baixa e caixa alta. Para eliminar essa diferença, utiliza a função UPPER:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+WHERE UPPER(NOME) LIKE ‘MARIA %SILVA%’
+</code></pre>
+
+<p></br></p>
+<h5 id="4-order-by"><strong>4. Order By</strong></h5>
+<p>O comando para ordenção é o ORDER BY. Veja no exemplo a seguir:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+ORDER BY NOME
+SELECT CODIGO, NOME FROM CLIENTES
+ORDER BY UF, NOME
+</code></pre>
+
+<p>A palavra DESC especifica uma ordenação invertida, ou seja, decrescente:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+ORDER BY NOME DESC
+SELECT CODIGO, NOME FROM CLIENTES
+ORDER BY UF DESC
+</code></pre>
+
+<p></br></p>
+<h5 id="5-join"><strong>5. Join</strong></h5>
+<p>A junção de tabelas pode ser feita com o comando JOIN. </p>
+<p>Este comando deve ser utilizado com a palavra INNER ou OUTER:</p>
+<ul>
+<li>
+<p>INNER: semelhante ao uso do operador “=” na junção de tabelas. Aqui os registros sem correspondências não são incluídos. Esta cláusula é opcional e pode ser omitida no comando JOIN.</p>
+</li>
+<li>
+<p>OUTER: os registros que não se relacionam também são exibidos. Neste caso, é possível definir qual tabela será incluída na seleção, mesmo não tendo correspondência.</p>
+</li>
+</ul>
+<p>Observe os exemplos a seguir:</p>
+<pre><code class="sql">SELECT A.CODIGO, A.DESCRICAO, B.DESCRICAO, B.QTD
+FROM PRODUTOS A
+INNER JOIN COMPONENTES B
+ON (A.CODIGO = B.CODPRODUTO)
+</code></pre>
+
+<p>Este comando pode ser escrito na versão resumida abaixo:</p>
+<pre><code class="sql">SELECT A.CODIGO, A.DESCRICAO, B.DESCRICAO
+FROM PRODUTOS A
+JOIN COMPONENTES B
+ON (A.CODIGO = B.CODPRODUTO)
+</code></pre>
+
+<p>Como mostrado no resultado 1, os produtos que não possuem componentes não são incluídos na seleção.</p>
+<pre><code class="sql">SELECT A.CODIGO, A.DESCRICAO, B.DESCRICAO, B.QTDE
+FROM PRODUTOS A
+LEFT OUTER JOIN COMPONENTES B
+ON (A.CODIGO = B.CODPRODUTO)
+</code></pre>
+
+<p>No comando acima todos os produtos serão incluídos na seleção, independente de possuírem um componente. Observe que a palavra LEFT se refere à primeira tabela do relacionamento.</p>
+<p></br></p>
+<h5 id="6-union"><strong>6. Union</strong></h5>
+<p>Há uma segunda forma de juntar tabelas com o comando SELECT: através do parâmetro UNION, em que é possível colar o conteúdo de duas tabelas. Exemplo:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+UNION
+SELECT CODIGO. NOME FROM FUNCIONARIOS
+</code></pre>
+
+<p>O resultado deste comando é a listagem de todos os clientes e a listagem de todos os funcionários, dentro do mesmo result set. No comando JOIN á união é horizontal e no UNION a união é vertical.
+</br>
+</br>
+Por padrão, os registros duplicados são eliminados na cláusula UNION. No exemplo anterior, se tivéssemos um cliente com o mesmo nome e código de um funcionário, apenas o registro da primeira tabela seria exibido. Para incluir todos os registros, independente de duplicidade, utilize a palavra ALL:</p>
+<pre><code class="sql">SELECT CODIGO, NOME FROM CLIENTES
+UNION ALL
+SELECT CODIGO, NOME FROM FUNCIONARIOS
+</code></pre>
+
+<p></br></p>
+<h5 id="7-group-by"><strong>7. Group By</strong></h5>
+<p>Um poderoso recurso do comando SELECT é o parâmetro GROUPY BY. Através dele podemos retornar informações agrupadas de um conjunto de registros, estabelecendo uma condição de agrupamento. É um recurso muito utilizado na criação de relatórios. Para exemplificar, temos as tabelas CLIENTES E PEDIDOS a seguir:</p>
+<pre><code class="sql">SELECT CODCLIENTE, MAX(VALOR)
+FROM PEDIDOS
+GROUP BY CODCLIENTE
+</code></pre>
+
+<p>O comando acima retorna o maior valor de pedido de cada cliente.</p>
+<pre><code class="sql">SELECT CODCLIENTE, COUNT(*)
+FROM PEDIDOS
+GROUPY BY CODCLIENTE
+</code></pre>
+
+<p>Aqui vemos quantos pedidos foram feitos por cada cliente.</p>
+<p></br></p>
+<h5 id="8-having"><strong>8. Having</strong></h5>
+<p>Através do comando HAVING podemos filtrar a cláusula GROUP BY. Observe o comando abaixo:</p>
+<pre><code class="sql">SELECT CODCLIENTE, COUNT(*)
+FROM PEDIDOS
+GROUPY BY CODCLIENTE
+HAVING COUNT(*) &gt;= 2
+</code></pre>
+
+<p>Somente os clientes com 2 ou mais pedidos serão selecionados. O HAVING é utilizado, geralmente com alguma função de agrupamento. Para filtros normais, pode-se utilizar o comando WHERE. Observe o exemplo abaixo:</p>
+<pre><code class="sql">SELECT CODCLIENTE, COUNT(*)
+FROM PEDIDOS
+WHERE DATA &gt; ‘06/10/2002’
+GROUPY BY CODCLIENTE
+HAVING COUNT(*) &gt;= 2
+</code></pre>
+
+<p></br></p>
+<h5 id="9-funcoes-de-agrupamento"><strong>9. Funções de agrupamento</strong></h5>
+<p><strong>AVG</strong>: retorna a média do campo especificado</p>
+<pre><code class="sql">SELECT AVG(VALOR) FROM PEDIDOS
+</code></pre>
+
+<p><strong>MIN/MAX/SUM</strong>: retorna o menor valor, o maior e o somatório de um grupo de registros, respectivamente</p>
+<pre><code class="sql">SELECT MIN(VALOR) FROM PEDIDOS
+SELECT MAX(VALOR) FROM PEDIDOS
+SELECT AVG(VALOR) FROM PEDIDOS
+</code></pre>
+
+<p><strong>COUNT</strong>: retorna a quantidade de itens da seleção</p>
+<pre><code class="sql">SELECT COUNT(CODIGO) FROM CLIENTES
+</code></pre>
+
+<p></br>
+</br>
+Fontes consultadas: <a href="https://www.devmedia.com.br/sql-select-guia-para-iniciantes/29530" target="_blank">devmedia</a>, <a href=https://mercadoemfoco.unisul.br/banco-de-dados-relacional-e-nao-relacional-quando-utilizar/ target="_blank">mercadoemfoco</a>.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
